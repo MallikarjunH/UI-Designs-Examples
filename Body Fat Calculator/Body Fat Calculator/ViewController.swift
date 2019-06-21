@@ -20,7 +20,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     
     func numberOfSections(in tableView: UITableView) -> Int {
         
-        return 3
+        return 2
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -34,23 +34,24 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
             
             let cell : TableViewCell1 = tableView.dequeueReusableCell(withIdentifier: "TableViewCell1", for: indexPath) as! TableViewCell1
             
+            
             return cell
         }
-        else if(indexPath.section == 1){
+        else {
             
             let cell : TableViewCell2 = tableView.dequeueReusableCell(withIdentifier: "TableViewCell2", for: indexPath) as! TableViewCell2
             
+            cell.labelSample.text = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standardum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's staum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's sta"
             return cell
         }
-        else{
-            
-            let cell : TableViewCell3 = tableView.dequeueReusableCell(withIdentifier: "TableViewCell3", for: indexPath) as! TableViewCell3
-            
-            return cell
-            
-        }
+        
     }
     
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        
+        return UITableView.automaticDimension
+    }
+
 
 
 }

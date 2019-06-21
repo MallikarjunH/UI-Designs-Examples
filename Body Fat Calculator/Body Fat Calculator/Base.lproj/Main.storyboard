@@ -302,7 +302,7 @@
                                             <constraint firstAttribute="width" constant="23" id="9zv-rp-DxM"/>
                                             <constraint firstAttribute="height" constant="22" id="F0N-E9-y3c"/>
                                         </constraints>
-                                        <state key="normal" image="backIcon_TPA"/>
+                                        <state key="normal" image="back_arrow_brown-2x"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Body Fat Calculator" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bNU-uU-2ys">
                                         <rect key="frame" x="46" y="30" width="168" height="29"/>
@@ -343,7 +343,7 @@
                                             <constraint firstAttribute="height" constant="30" id="pcJ-ik-qqb"/>
                                             <constraint firstAttribute="width" constant="30" id="ys5-eh-XMa"/>
                                         </constraints>
-                                        <state key="normal" image="calIcon_Tpa" backgroundImage="calicon_Bg"/>
+                                        <state key="normal" image="Green-tick"/>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -446,28 +446,31 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="BodyFatCalculatorResultCell2Id" rowHeight="140" id="hwt-P4-mif" customClass="BodyFatCalculatorResultCell2" customModule="VidalHealth" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="208" width="414" height="140"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TableViewCell2" rowHeight="200" id="hwt-P4-mif" customClass="TableViewCell2" customModule="Body_Fat_Calculator" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="208" width="414" height="200"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hwt-P4-mif" id="bYB-cb-yL3">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="139.66666666666666"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="199.66666666666666"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eIj-eL-kqt">
-                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="139.66666666666666"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="199.66666666666666"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2L5-E1-LwU">
                                                             <rect key="frame" x="25" y="5" width="42" height="20"/>
                                                             <constraints>
-                                                                <constraint firstAttribute="height" constant="20" id="Icq-eH-eZw"/>
-                                                                <constraint firstAttribute="width" constant="42" id="RGe-kt-KdS"/>
+                                                                <constraint firstAttribute="height" constant="20" id="Gj9-08-TFK"/>
+                                                                <constraint firstAttribute="width" constant="42" id="PHm-cl-YKf"/>
                                                             </constraints>
                                                             <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="16"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t97-D6-iTc">
-                                                            <rect key="frame" x="25" y="28.000000000000007" width="368" height="104.66666666666669"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t97-D6-iTc">
+                                                            <rect key="frame" x="23" y="33" width="368" height="153"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="368" id="OXQ-MS-pDM"/>
+                                                            </constraints>
                                                             <string key="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</string>
                                                             <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
                                                             <nil key="textColor"/>
@@ -476,25 +479,25 @@
                                                     </subviews>
                                                     <color key="backgroundColor" red="0.95294117649999999" green="0.95686274510000002" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
-                                                        <constraint firstItem="2L5-E1-LwU" firstAttribute="top" secondItem="eIj-eL-kqt" secondAttribute="top" constant="5" id="6wf-Vt-Uq9"/>
-                                                        <constraint firstAttribute="bottom" secondItem="t97-D6-iTc" secondAttribute="bottom" constant="7" id="90e-Xo-XfB"/>
-                                                        <constraint firstItem="t97-D6-iTc" firstAttribute="top" secondItem="2L5-E1-LwU" secondAttribute="bottom" constant="3" id="RLl-pg-i77"/>
-                                                        <constraint firstItem="t97-D6-iTc" firstAttribute="leading" secondItem="eIj-eL-kqt" secondAttribute="leading" constant="25" id="cVG-ss-AbM"/>
-                                                        <constraint firstAttribute="trailing" secondItem="t97-D6-iTc" secondAttribute="trailing" constant="21" id="dhW-Xz-bd5"/>
-                                                        <constraint firstItem="2L5-E1-LwU" firstAttribute="leading" secondItem="eIj-eL-kqt" secondAttribute="leading" constant="25" id="zYu-aE-gje"/>
+                                                        <constraint firstItem="t97-D6-iTc" firstAttribute="leading" secondItem="eIj-eL-kqt" secondAttribute="leading" constant="23" id="DEp-m9-v3A"/>
+                                                        <constraint firstAttribute="bottom" secondItem="t97-D6-iTc" secondAttribute="bottom" constant="13.67" id="KDC-zj-iZM"/>
+                                                        <constraint firstItem="2L5-E1-LwU" firstAttribute="top" secondItem="eIj-eL-kqt" secondAttribute="top" constant="5" id="OmM-yE-ILX"/>
+                                                        <constraint firstItem="2L5-E1-LwU" firstAttribute="leading" secondItem="eIj-eL-kqt" secondAttribute="leading" constant="25" id="g4P-In-Gbz"/>
+                                                        <constraint firstItem="t97-D6-iTc" firstAttribute="top" secondItem="2L5-E1-LwU" secondAttribute="bottom" constant="8" id="mWT-sT-YaE"/>
+                                                        <constraint firstAttribute="trailing" secondItem="t97-D6-iTc" secondAttribute="trailing" constant="23" id="s8P-OT-cip"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>
                                             <color key="backgroundColor" red="0.0039215686269999999" green="0.77647058820000003" blue="0.71372549019999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
-                                                <constraint firstItem="eIj-eL-kqt" firstAttribute="leading" secondItem="bYB-cb-yL3" secondAttribute="leading" id="KkD-pB-t5M"/>
-                                                <constraint firstItem="eIj-eL-kqt" firstAttribute="top" secondItem="bYB-cb-yL3" secondAttribute="top" id="UO7-ms-jFd"/>
-                                                <constraint firstAttribute="bottom" secondItem="eIj-eL-kqt" secondAttribute="bottom" id="Vzq-W5-3vr"/>
-                                                <constraint firstAttribute="trailing" secondItem="eIj-eL-kqt" secondAttribute="trailing" id="xde-xt-x0s"/>
+                                                <constraint firstAttribute="bottom" secondItem="eIj-eL-kqt" secondAttribute="bottom" id="1b8-Gc-gB8"/>
+                                                <constraint firstItem="eIj-eL-kqt" firstAttribute="leading" secondItem="bYB-cb-yL3" secondAttribute="leading" id="BZN-38-9e1"/>
+                                                <constraint firstItem="eIj-eL-kqt" firstAttribute="top" secondItem="bYB-cb-yL3" secondAttribute="top" id="DEP-8B-LOH"/>
+                                                <constraint firstAttribute="trailing" secondItem="eIj-eL-kqt" secondAttribute="trailing" id="i4c-tO-3sC"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="resultDescriptionLabel" destination="t97-D6-iTc" id="BH4-ue-0Lw"/>
+                                            <outlet property="labelSample" destination="t97-D6-iTc" id="0vQ-10-e8f"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -526,12 +529,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JbE-4z-37S" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="688.40579710144937" y="31.793478260869566"/>
+            <point key="canvasLocation" x="107" y="21"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Green-tick" width="123" height="86"/>
         <image name="athlete_" width="63" height="105"/>
         <image name="backIcon_TPA" width="16" height="16"/>
+        <image name="back_arrow_brown-2x" width="46" height="34"/>
         <image name="calIcon_Tpa" width="16" height="16"/>
         <image name="calicon_Bg" width="16" height="16"/>
         <image name="notification_off" width="16" height="16"/>

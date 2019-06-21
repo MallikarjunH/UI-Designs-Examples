@@ -25,9 +25,12 @@ class TableViewCell1: UITableViewCell {
 
 class TableViewCell2: UITableViewCell {
     
+    @IBOutlet weak var labelSample: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        labelSample.lineBreakMode = .byWordWrapping
     }
     
     override func setSelected(_ selected: Bool, animated: Bool) {
