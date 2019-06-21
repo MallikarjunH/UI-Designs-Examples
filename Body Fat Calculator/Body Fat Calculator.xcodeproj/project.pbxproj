@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0625031022BD008E001743AE /* BodyFatCalculatorResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0625030F22BD008E001743AE /* BodyFatCalculatorResult.swift */; };
+		0625031222BD00AB001743AE /* BodyFatCalculatorResultCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0625031122BD00AB001743AE /* BodyFatCalculatorResultCells.swift */; };
 		065ED87A22BB583C00C65D0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065ED87922BB583C00C65D0D /* AppDelegate.swift */; };
 		065ED87C22BB583C00C65D0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065ED87B22BB583C00C65D0D /* ViewController.swift */; };
 		065ED87F22BB583C00C65D0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 065ED87D22BB583C00C65D0D /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0625030F22BD008E001743AE /* BodyFatCalculatorResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyFatCalculatorResult.swift; sourceTree = "<group>"; };
+		0625031122BD00AB001743AE /* BodyFatCalculatorResultCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyFatCalculatorResultCells.swift; sourceTree = "<group>"; };
 		065ED87622BB583C00C65D0D /* Body Fat Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Body Fat Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		065ED87922BB583C00C65D0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		065ED87B22BB583C00C65D0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +53,8 @@
 		0625030E22BCFFC8001743AE /* BFC */ = {
 			isa = PBXGroup;
 			children = (
+				0625030F22BD008E001743AE /* BodyFatCalculatorResult.swift */,
+				0625031122BD00AB001743AE /* BodyFatCalculatorResultCells.swift */,
 			);
 			path = BFC;
 			sourceTree = "<group>";
@@ -155,7 +161,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				065ED87C22BB583C00C65D0D /* ViewController.swift in Sources */,
+				0625031222BD00AB001743AE /* BodyFatCalculatorResultCells.swift in Sources */,
 				065ED88C22BB5BE000C65D0D /* TableViewCells.swift in Sources */,
+				0625031022BD008E001743AE /* BodyFatCalculatorResult.swift in Sources */,
 				065ED87A22BB583C00C65D0D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
