@@ -12,7 +12,6 @@
 		0618B08822C241EF0039E134 /* BabyHeightPredictorResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0618B08722C241EF0039E134 /* BabyHeightPredictorResult.swift */; };
 		0618B08A22C2420A0039E134 /* BabyHeightPredictorResultCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0618B08922C2420A0039E134 /* BabyHeightPredictorResultCells.swift */; };
 		06E3631722C204EC00E6C01C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E3631622C204EC00E6C01C /* AppDelegate.swift */; };
-		06E3631922C204EC00E6C01C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E3631822C204EC00E6C01C /* ViewController.swift */; };
 		06E3631C22C204EC00E6C01C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06E3631A22C204EC00E6C01C /* Main.storyboard */; };
 		06E3631E22C204FD00E6C01C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06E3631D22C204FD00E6C01C /* Assets.xcassets */; };
 		06E3632122C204FD00E6C01C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06E3631F22C204FD00E6C01C /* LaunchScreen.storyboard */; };
@@ -25,7 +24,6 @@
 		0618B08922C2420A0039E134 /* BabyHeightPredictorResultCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyHeightPredictorResultCells.swift; sourceTree = "<group>"; };
 		06E3631322C204EC00E6C01C /* Baby Height Predictor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Baby Height Predictor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06E3631622C204EC00E6C01C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		06E3631822C204EC00E6C01C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		06E3631B22C204EC00E6C01C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		06E3631D22C204FD00E6C01C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06E3632022C204FD00E6C01C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -63,7 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				06E3631622C204EC00E6C01C /* AppDelegate.swift */,
-				06E3631822C204EC00E6C01C /* ViewController.swift */,
 				06E3631A22C204EC00E6C01C /* Main.storyboard */,
 				06E3631D22C204FD00E6C01C /* Assets.xcassets */,
 				06E3631F22C204FD00E6C01C /* LaunchScreen.storyboard */,
@@ -148,7 +145,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0618B08A22C2420A0039E134 /* BabyHeightPredictorResultCells.swift in Sources */,
-				06E3631922C204EC00E6C01C /* ViewController.swift in Sources */,
 				0618B08822C241EF0039E134 /* BabyHeightPredictorResult.swift in Sources */,
 				0618B08422C241AA0039E134 /* BabyHeightPredictorForm.swift in Sources */,
 				06E3631722C204EC00E6C01C /* AppDelegate.swift in Sources */,
