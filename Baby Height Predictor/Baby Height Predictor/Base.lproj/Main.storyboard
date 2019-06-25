@@ -31,6 +31,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-496" y="104"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="cLr-3N-V7P">
@@ -61,30 +62,6 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B77-Nz-cRn">
-                                        <rect key="frame" x="284" y="42" width="25" height="25"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="25" id="NT9-ch-Z6d"/>
-                                            <constraint firstAttribute="width" constant="25" id="j4U-pd-PkD"/>
-                                        </constraints>
-                                        <state key="normal" backgroundImage="searchIcon_TPA"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3xn-JM-f4Y">
-                                        <rect key="frame" x="329" y="42" width="25" height="24"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="25" id="VRF-4W-BMI"/>
-                                            <constraint firstAttribute="height" constant="24" id="hJ7-Bx-EBa"/>
-                                        </constraints>
-                                        <state key="normal" backgroundImage="notification_off"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2e1-MX-gZL">
-                                        <rect key="frame" x="369" y="40" width="30" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="kD8-0J-adX"/>
-                                            <constraint firstAttribute="width" constant="30" id="lce-JY-GZz"/>
-                                        </constraints>
-                                        <state key="normal" image="calIcon_Tpa" backgroundImage="calicon_Bg"/>
-                                    </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GyR-Nq-RXo">
                                         <rect key="frame" x="0.0" y="88" width="414" height="2"/>
                                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -105,17 +82,11 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="2e1-MX-gZL" firstAttribute="leading" secondItem="3xn-JM-f4Y" secondAttribute="trailing" constant="15" id="0Or-Ce-ijz"/>
-                                    <constraint firstItem="3xn-JM-f4Y" firstAttribute="top" secondItem="300-Ok-vnD" secondAttribute="top" constant="42" id="2I2-tv-VZ4"/>
-                                    <constraint firstItem="2e1-MX-gZL" firstAttribute="top" secondItem="300-Ok-vnD" secondAttribute="top" constant="40" id="FtE-uk-OHi"/>
                                     <constraint firstItem="U7K-Ix-vJr" firstAttribute="top" secondItem="300-Ok-vnD" secondAttribute="top" constant="40" id="Mv6-8Y-dcz"/>
-                                    <constraint firstAttribute="trailing" secondItem="2e1-MX-gZL" secondAttribute="trailing" constant="15" id="N7q-kR-dZe"/>
                                     <constraint firstItem="U7K-Ix-vJr" firstAttribute="leading" secondItem="3BR-BB-FwR" secondAttribute="trailing" constant="13" id="QRJ-nq-nEY"/>
-                                    <constraint firstItem="3xn-JM-f4Y" firstAttribute="leading" secondItem="B77-Nz-cRn" secondAttribute="trailing" constant="20" id="RWf-6Y-c4l"/>
                                     <constraint firstAttribute="trailing" secondItem="GyR-Nq-RXo" secondAttribute="trailing" id="UVr-ep-CIo"/>
                                     <constraint firstItem="3BR-BB-FwR" firstAttribute="top" secondItem="300-Ok-vnD" secondAttribute="top" constant="45" id="gVE-8M-Rqr"/>
                                     <constraint firstAttribute="height" constant="90" id="hg5-3c-MNS"/>
-                                    <constraint firstItem="B77-Nz-cRn" firstAttribute="top" secondItem="300-Ok-vnD" secondAttribute="top" constant="42" id="i6g-KI-T0z"/>
                                     <constraint firstItem="GyR-Nq-RXo" firstAttribute="leading" secondItem="300-Ok-vnD" secondAttribute="leading" id="lmW-dp-2Ha"/>
                                     <constraint firstItem="3BR-BB-FwR" firstAttribute="leading" secondItem="300-Ok-vnD" secondAttribute="leading" constant="10" id="n00-WV-opy"/>
                                     <constraint firstItem="6i2-GX-iz9" firstAttribute="leading" secondItem="300-Ok-vnD" secondAttribute="leading" constant="8" id="nQA-H8-jpf"/>
@@ -135,7 +106,7 @@
                                 <rect key="frame" x="0.0" y="94" width="414" height="577"/>
                                 <color key="backgroundColor" red="0.95294117649999999" green="0.95686274510000002" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="BabyHeightPredictorFormCell0Id" rowHeight="50" id="T9Q-tl-6FE" customClass="BabyHeightPredictorFormCell0" customModule="VidalHealth" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="50" id="T9Q-tl-6FE">
                                         <rect key="frame" x="0.0" y="28" width="414" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="T9Q-tl-6FE" id="kIR-ob-pJY">
@@ -171,7 +142,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="BabyHeightPredictorFormCell1Id" rowHeight="70" id="e22-em-SAH" customClass="BabyHeightPredictorFormCell1" customModule="VidalHealth" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="70" id="e22-em-SAH">
                                         <rect key="frame" x="0.0" y="78" width="414" height="70"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="e22-em-SAH" id="wQ6-Ke-VfY">
@@ -200,7 +171,7 @@
                                                                 <constraint firstAttribute="width" constant="175" id="TZO-8U-OcB"/>
                                                             </constraints>
                                                             <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="16"/>
-                                                            <state key="normal" title="  Female" image="female_(1)">
+                                                            <state key="normal" title="  Female" image="female">
                                                                 <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             </state>
                                                         </button>
@@ -226,7 +197,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="BabyHeightPredictorFormCell2Id" rowHeight="173" id="G4s-vV-9AV" customClass="BabyHeightPredictorFormCell2" customModule="VidalHealth" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="173" id="G4s-vV-9AV">
                                         <rect key="frame" x="0.0" y="148" width="414" height="173"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="G4s-vV-9AV" id="3jm-AY-k6Z">
@@ -283,14 +254,14 @@
                                                         <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Mother’s Height"/>
                                                     </userDefinedRuntimeAttributes>
                                                 </textField>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="down_arrow_Tpa" translatesAutoresizingMaskIntoConstraints="NO" id="H63-dE-AQK">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Down_arrow" translatesAutoresizingMaskIntoConstraints="NO" id="H63-dE-AQK">
                                                     <rect key="frame" x="370" y="82" width="10" height="6"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="6" id="07y-50-apf"/>
                                                         <constraint firstAttribute="width" constant="10" id="n68-gI-iPx"/>
                                                     </constraints>
                                                 </imageView>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="down_arrow_Tpa" translatesAutoresizingMaskIntoConstraints="NO" id="wcT-14-dTP">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Down_arrow" translatesAutoresizingMaskIntoConstraints="NO" id="wcT-14-dTP">
                                                     <rect key="frame" x="370" y="32" width="10" height="6"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="6" id="mj4-Ry-SBE"/>
@@ -460,7 +431,7 @@
                                 <rect key="frame" x="0.0" y="90" width="414" height="581"/>
                                 <color key="backgroundColor" red="0.95294117649999999" green="0.95686274510000002" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="BabyHeightPredictorResultCell1Id" rowHeight="180" id="osd-cx-1Yd" customClass="BabyHeightPredictorResultCell1" customModule="VidalHealth" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="180" id="osd-cx-1Yd">
                                         <rect key="frame" x="0.0" y="28" width="414" height="180"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="osd-cx-1Yd" id="gXT-YJ-w8i">
@@ -520,7 +491,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="BabyHeightPredictorResultCell2Id" rowHeight="250" id="wFk-Ry-JQF" customClass="BabyHeightPredictorResultCell2" customModule="VidalHealth" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="250" id="wFk-Ry-JQF">
                                         <rect key="frame" x="0.0" y="208" width="414" height="250"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wFk-Ry-JQF" id="ckO-lG-2eb">
@@ -622,11 +593,11 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
         </scene>
     </scenes>
     <resources>
+        <image name="Down_arrow" width="7.6666665077209473" height="4.6666665077209473"/>
         <image name="backIcon_TPA" width="16" height="16"/>
         <image name="calIcon_Tpa" width="16" height="16"/>
         <image name="calicon_Bg" width="16" height="16"/>
-        <image name="down_arrow_Tpa" width="16" height="16"/>
-        <image name="female_(1)" width="16" height="16"/>
+        <image name="female" width="12" height="18.333333969116211"/>
         <image name="male" width="16" height="16"/>
         <image name="notification_off" width="16" height="16"/>
         <image name="searchIcon_TPA" width="16" height="16"/>
