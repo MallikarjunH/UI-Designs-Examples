@@ -376,7 +376,7 @@
         <!--Body Fat Calculator Result-->
         <scene sceneID="FlQ-pk-RF1">
             <objects>
-                <viewController storyboardIdentifier="BodyFatCalculatorResultId" id="Zyj-Ql-ix4" customClass="BodyFatCalculatorResult" customModule="VidalHealth" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BodyFatCalculatorResultId" id="Zyj-Ql-ix4" customClass="BodyFatCalculatorResult" customModule="TestTableData" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="k5e-VH-76N">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -468,14 +468,14 @@
                                 <rect key="frame" x="0.0" y="90" width="414" height="581"/>
                                 <color key="backgroundColor" red="0.95294117649999999" green="0.95686274510000002" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="BodyFatCalculatorResultCell1Id" rowHeight="180" id="zlv-tg-4wi" customClass="BodyFatCalculatorResultCell1" customModule="VidalHealth" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="BodyFatCalculatorResultCell1Id" rowHeight="180" id="zlv-tg-4wi" customClass="BodyFatCalculatorResultCell1" customModule="TestTableData" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="180"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zlv-tg-4wi" id="kDG-wt-kzS">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zlv-tg-4wi" id="kDG-wt-kzS">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="179.66666666666666"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QWj-xG-pQ4">
+                                                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QWj-xG-pQ4">
                                                     <rect key="frame" x="20" y="15" width="374" height="150"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="athletePic" translatesAutoresizingMaskIntoConstraints="NO" id="zfk-YD-fIg">
@@ -495,7 +495,7 @@
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Essential Fat  " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IIH-kZ-VaV">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Essential Fat  " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IIH-kZ-VaV">
                                                             <rect key="frame" x="280" y="124" width="75" height="20"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="20" id="fxt-of-J7U"/>
@@ -544,14 +544,14 @@
                                             <outlet property="mainCardView" destination="QWj-xG-pQ4" id="aKg-S0-Ol5"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="BodyFatCalculatorResultCell2Id" rowHeight="140" id="SWh-Wd-Ul5" customClass="BodyFatCalculatorResultCell2" customModule="VidalHealth" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="BodyFatCalculatorResultCell2Id" rowHeight="140" id="SWh-Wd-Ul5" customClass="BodyFatCalculatorResultCell2" customModule="TestTableData" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="208" width="414" height="140"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="SWh-Wd-Ul5" id="Pts-2O-1GS">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="SWh-Wd-Ul5" id="Pts-2O-1GS">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="139.66666666666666"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UWa-ae-lcq">
+                                                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UWa-ae-lcq">
                                                     <rect key="frame" x="0.0" y="0.0" width="414" height="139.66666666666666"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aif-nK-8RW">
@@ -569,9 +569,9 @@
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="368" id="bjz-Zb-tn6"/>
                                                             </constraints>
-                                                            <mutableString key="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                                                            <string key="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</mutableString>
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</string>
                                                             <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -597,7 +597,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="BodyFatCalculatorResultCell3Id" rowHeight="297" id="7Jq-fW-c2d" customClass="BodyFatCalculatorResultCell3" customModule="VidalHealth" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="BodyFatCalculatorResultCell3Id" rowHeight="297" id="7Jq-fW-c2d" customClass="BodyFatCalculatorResultCell3" customModule="TestTableData" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="348" width="414" height="297"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="7Jq-fW-c2d" id="cTY-bF-HFJ">
@@ -1007,7 +1007,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bwm-N3-fRw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2426" y="139"/>
+            <point key="canvasLocation" x="1928" y="139"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="J0K-2y-0UD">
