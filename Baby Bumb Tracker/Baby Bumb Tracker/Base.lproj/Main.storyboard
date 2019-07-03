@@ -298,54 +298,50 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cr2-91-R3b">
                                                     <rect key="frame" x="0.0" y="0.0" width="150" height="235"/>
                                                     <subviews>
-                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hU9-cV-jDC">
-                                                            <rect key="frame" x="0.0" y="181" width="150" height="54"/>
-                                                            <subviews>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1st Month" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="Z7l-Mc-BJU">
-                                                                    <rect key="frame" x="20" y="9" width="121" height="26"/>
-                                                                    <constraints>
-                                                                        <constraint firstAttribute="width" constant="121" id="1tT-Vp-GKO"/>
-                                                                        <constraint firstAttribute="height" constant="26" id="fAK-8f-TGp"/>
-                                                                    </constraints>
-                                                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
-                                                                    <color key="textColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
-                                                                    <nil key="highlightedColor"/>
-                                                                </label>
-                                                            </subviews>
-                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="height" constant="54" id="NOk-vN-zuk"/>
-                                                                <constraint firstItem="Z7l-Mc-BJU" firstAttribute="top" secondItem="hU9-cV-jDC" secondAttribute="top" constant="9" id="h7q-hv-27D"/>
-                                                                <constraint firstItem="Z7l-Mc-BJU" firstAttribute="leading" secondItem="hU9-cV-jDC" secondAttribute="leading" constant="20" id="lUP-In-iZf"/>
-                                                            </constraints>
-                                                        </view>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1_month" translatesAutoresizingMaskIntoConstraints="NO" id="gBn-V6-RAB">
-                                                            <rect key="frame" x="33" y="33" width="90" height="140"/>
+                                                            <rect key="frame" x="32" y="33" width="90" height="154"/>
                                                         </imageView>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangle" translatesAutoresizingMaskIntoConstraints="NO" id="NHh-mY-Snm">
+                                                            <rect key="frame" x="0.0" y="150" width="150" height="85"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="85" id="oPt-ds-Elk"/>
+                                                            </constraints>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1st Month" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="Z7l-Mc-BJU">
+                                                            <rect key="frame" x="21" y="196" width="121" height="26"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="26" id="m9Q-qa-Poo"/>
+                                                                <constraint firstAttribute="width" constant="121" id="miI-j8-48c"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                                            <color key="textColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
                                                     </subviews>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
-                                                        <constraint firstItem="gBn-V6-RAB" firstAttribute="leading" secondItem="cr2-91-R3b" secondAttribute="leading" constant="33" id="0az-VJ-iFM"/>
-                                                        <constraint firstAttribute="trailing" secondItem="hU9-cV-jDC" secondAttribute="trailing" id="AU5-ob-hV7"/>
-                                                        <constraint firstItem="gBn-V6-RAB" firstAttribute="top" secondItem="cr2-91-R3b" secondAttribute="top" constant="33" id="TgA-Wd-yTK"/>
-                                                        <constraint firstAttribute="bottom" secondItem="hU9-cV-jDC" secondAttribute="bottom" id="VPz-Y8-DD7"/>
-                                                        <constraint firstItem="hU9-cV-jDC" firstAttribute="top" secondItem="gBn-V6-RAB" secondAttribute="bottom" constant="8" id="bJF-Fi-0er"/>
-                                                        <constraint firstItem="hU9-cV-jDC" firstAttribute="leading" secondItem="cr2-91-R3b" secondAttribute="leading" id="ksw-cy-pGI"/>
-                                                        <constraint firstAttribute="trailing" secondItem="gBn-V6-RAB" secondAttribute="trailing" constant="27" id="qZ6-Wk-eyn"/>
+                                                        <constraint firstItem="Z7l-Mc-BJU" firstAttribute="top" secondItem="gBn-V6-RAB" secondAttribute="bottom" constant="9" id="4KV-hd-oAc"/>
+                                                        <constraint firstAttribute="trailing" secondItem="gBn-V6-RAB" secondAttribute="trailing" constant="28" id="7Mj-cf-Bhj"/>
+                                                        <constraint firstItem="gBn-V6-RAB" firstAttribute="top" secondItem="cr2-91-R3b" secondAttribute="top" constant="33" id="GPt-cN-kfP"/>
+                                                        <constraint firstItem="Z7l-Mc-BJU" firstAttribute="leading" secondItem="cr2-91-R3b" secondAttribute="leading" constant="21" id="MwW-z2-bDu"/>
+                                                        <constraint firstItem="NHh-mY-Snm" firstAttribute="leading" secondItem="cr2-91-R3b" secondAttribute="leading" id="PjN-gU-pzB"/>
+                                                        <constraint firstAttribute="bottom" secondItem="Z7l-Mc-BJU" secondAttribute="bottom" constant="13" id="chN-EJ-Uxp"/>
+                                                        <constraint firstAttribute="bottom" secondItem="NHh-mY-Snm" secondAttribute="bottom" id="m5w-hq-X38"/>
+                                                        <constraint firstAttribute="trailing" secondItem="NHh-mY-Snm" secondAttribute="trailing" id="nof-54-fcH"/>
+                                                        <constraint firstItem="gBn-V6-RAB" firstAttribute="leading" secondItem="cr2-91-R3b" secondAttribute="leading" constant="32" id="utu-0y-IVZ"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>
                                         </view>
                                         <constraints>
-                                            <constraint firstAttribute="bottom" secondItem="cr2-91-R3b" secondAttribute="bottom" id="0Ec-Af-0KW"/>
-                                            <constraint firstItem="cr2-91-R3b" firstAttribute="leading" secondItem="1Va-0I-KWl" secondAttribute="leading" id="A2D-2g-Ee1"/>
-                                            <constraint firstAttribute="trailing" secondItem="cr2-91-R3b" secondAttribute="trailing" id="Sqw-Yh-ZAD"/>
-                                            <constraint firstItem="cr2-91-R3b" firstAttribute="top" secondItem="1Va-0I-KWl" secondAttribute="top" id="hTJ-Zh-De8"/>
+                                            <constraint firstAttribute="trailing" secondItem="cr2-91-R3b" secondAttribute="trailing" id="CAZ-xh-3xa"/>
+                                            <constraint firstItem="cr2-91-R3b" firstAttribute="top" secondItem="1Va-0I-KWl" secondAttribute="top" id="UMW-TF-aBP"/>
+                                            <constraint firstAttribute="bottom" secondItem="cr2-91-R3b" secondAttribute="bottom" id="ofD-qR-7A0"/>
+                                            <constraint firstItem="cr2-91-R3b" firstAttribute="leading" secondItem="1Va-0I-KWl" secondAttribute="leading" id="vZS-gw-HR8"/>
                                         </constraints>
                                         <size key="customSize" width="150" height="235"/>
                                         <connections>
                                             <outlet property="frontImgLadyIcon" destination="gBn-V6-RAB" id="fWf-Su-Cr9"/>
-                                            <outlet property="gradientView" destination="hU9-cV-jDC" id="ag3-f5-0HI"/>
                                             <outlet property="mainBGView" destination="cr2-91-R3b" id="G2v-bx-zbP"/>
                                             <outlet property="monthLabel" destination="Z7l-Mc-BJU" id="lTq-KZ-elJ"/>
                                         </connections>
@@ -381,6 +377,7 @@
     <resources>
         <image name="1_month" width="77" height="141"/>
         <image name="Bitmap_Copy" width="139" height="237"/>
+        <image name="Rectangle" width="153" height="64.666664123535156"/>
         <image name="back_arrow_brown-2x" width="46" height="34"/>
     </resources>
 </document>

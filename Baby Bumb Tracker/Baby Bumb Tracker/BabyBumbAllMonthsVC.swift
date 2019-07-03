@@ -31,7 +31,7 @@ class BabyBumbAllMonthsVC: UIViewController,UICollectionViewDelegate, UICollecti
         
         cell.monthLabel.text = monthArray[indexPath.item]
         cell.monthLabel.textColor = UIColor.black
-        cell.gradientView.addSubview(cell.monthLabel)
+      //  cell.gradientView.addSubview(cell.monthLabel)
         return cell
     }
 
