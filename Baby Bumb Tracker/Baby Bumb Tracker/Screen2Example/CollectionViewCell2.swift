@@ -23,4 +23,6 @@ class CollectionViewCell2: UICollectionViewCell {
         mainBGVIew.layer.cornerRadius = 2
         
     }
+    
+    
 }

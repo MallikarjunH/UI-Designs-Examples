@@ -36,6 +36,15 @@ class ViewController2: UIViewController,UICollectionViewDelegate, UICollectionVi
         return cell
     }
 
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+      //  print(indexPath.item)
+        if indexPath.item == 0 ||  indexPath.item == 1{
+        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+        let detailsVC = storyBoard.instantiateViewController(withIdentifier: "MonthDetailsVCId") as? MonthDetailsVC
+        self.navigationController?.pushViewController(detailsVC!, animated: true)
+        }
+    }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
