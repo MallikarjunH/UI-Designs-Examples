@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="omc-zc-Gk8">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mzx-xa-1cV">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -15,10 +15,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--View Controller2-->
         <scene sceneID="waw-lP-Za4">
             <objects>
-                <viewController id="mzx-xa-1cV" sceneMemberID="viewController">
+                <viewController id="mzx-xa-1cV" customClass="ViewController2" customModule="Baby_Bumb_Tracker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="c29-Q4-LMD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -34,7 +34,7 @@
                                         </constraints>
                                         <state key="normal" image="back_arrow_brown-2x"/>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Health Tools Back Image" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XQg-pj-RrH">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Baby Bumb Tracker" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XQg-pj-RrH">
                                         <rect key="frame" x="46" y="42" width="242" height="29"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="29" id="VbM-pk-3rU"/>
@@ -113,7 +113,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="" id="qGm-n5-MZt">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionViewCell2Id" id="qGm-n5-MZt" customClass="CollectionViewCell2" customModule="Baby_Bumb_Tracker" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="235"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -135,13 +135,19 @@
                                                                 <constraint firstAttribute="height" constant="26" id="fuH-Qh-dnc"/>
                                                             </constraints>
                                                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
-                                                            <color key="textColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1_month" translatesAutoresizingMaskIntoConstraints="NO" id="TL4-pC-cBX">
                                                             <rect key="frame" x="33" y="40" width="80" height="140"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" secondItem="TL4-pC-cBX" secondAttribute="height" multiplier="4:7" id="EFC-1i-yqX"/>
+                                                            </constraints>
+                                                        </imageView>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangle" translatesAutoresizingMaskIntoConstraints="NO" id="bN0-ve-N95">
+                                                            <rect key="frame" x="0.0" y="150" width="150" height="85"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="85" id="WCz-v9-HIc"/>
                                                             </constraints>
                                                         </imageView>
                                                     </subviews>
@@ -152,9 +158,12 @@
                                                         <constraint firstAttribute="trailing" secondItem="TL4-pC-cBX" secondAttribute="trailing" constant="37" id="5uj-yu-QFb"/>
                                                         <constraint firstAttribute="trailing" secondItem="jGt-oR-ci3" secondAttribute="trailing" constant="16" id="8OZ-LN-V9k"/>
                                                         <constraint firstItem="TL4-pC-cBX" firstAttribute="leading" secondItem="AwG-ff-cQH" secondAttribute="leading" constant="33" id="8kJ-MO-UyU"/>
+                                                        <constraint firstAttribute="trailing" secondItem="bN0-ve-N95" secondAttribute="trailing" id="HTs-RT-fR6"/>
                                                         <constraint firstItem="0g1-VD-e8m" firstAttribute="leading" secondItem="AwG-ff-cQH" secondAttribute="leading" id="L0N-o4-o0G"/>
                                                         <constraint firstItem="TL4-pC-cBX" firstAttribute="top" secondItem="AwG-ff-cQH" secondAttribute="top" constant="40" id="O2f-wi-lU3"/>
                                                         <constraint firstItem="jGt-oR-ci3" firstAttribute="top" secondItem="TL4-pC-cBX" secondAttribute="bottom" constant="10" id="Pke-Ul-2f3"/>
+                                                        <constraint firstItem="bN0-ve-N95" firstAttribute="leading" secondItem="AwG-ff-cQH" secondAttribute="leading" id="VeB-On-hHL"/>
+                                                        <constraint firstAttribute="bottom" secondItem="bN0-ve-N95" secondAttribute="bottom" id="Xo7-or-bUe"/>
                                                         <constraint firstAttribute="bottom" secondItem="jGt-oR-ci3" secondAttribute="bottom" constant="19" id="Z1v-0y-73J"/>
                                                         <constraint firstAttribute="bottom" secondItem="0g1-VD-e8m" secondAttribute="bottom" id="iIe-UU-AiQ"/>
                                                         <constraint firstItem="0g1-VD-e8m" firstAttribute="top" secondItem="AwG-ff-cQH" secondAttribute="top" id="rJu-lR-TQZ"/>
@@ -169,8 +178,18 @@
                                             <constraint firstAttribute="trailing" secondItem="AwG-ff-cQH" secondAttribute="trailing" id="zbc-fG-WAB"/>
                                         </constraints>
                                         <size key="customSize" width="150" height="235"/>
+                                        <connections>
+                                            <outlet property="demoImage" destination="TL4-pC-cBX" id="bDs-rz-kbv"/>
+                                            <outlet property="mainBGVIew" destination="AwG-ff-cQH" id="vTu-oN-K4e"/>
+                                            <outlet property="mainImage" destination="0g1-VD-e8m" id="v8n-0g-L5J"/>
+                                            <outlet property="monthLabel" destination="jGt-oR-ci3" id="1GA-8d-sgU"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="mzx-xa-1cV" id="W29-fI-cFF"/>
+                                    <outlet property="delegate" destination="mzx-xa-1cV" id="6Mi-hp-eNe"/>
+                                </connections>
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -185,10 +204,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="We7-rR-tTv"/>
                     </view>
+                    <connections>
+                        <outlet property="mainCollectionView" destination="tlm-Xs-KVi" id="w7D-Ky-1nI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7oB-UN-BoM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="950.72463768115949" y="23.64130434782609"/>
+            <point key="canvasLocation" x="2674" y="24"/>
         </scene>
         <!--Baby Bumb All MonthsVC-->
         <scene sceneID="C0j-xJ-AQO">
