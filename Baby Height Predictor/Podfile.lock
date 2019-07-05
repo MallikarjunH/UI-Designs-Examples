@@ -1,16 +1,20 @@
 PODS:
   - SkyFloatingLabelTextField (3.7.0)
+  - STPopup (1.8.6)
 
 DEPENDENCIES:
   - SkyFloatingLabelTextField (~> 3.0)
+  - STPopup
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - SkyFloatingLabelTextField
+    - STPopup
 
 SPEC CHECKSUMS:
   SkyFloatingLabelTextField: 4b46db0ab1ccde0919cded29c656e6b4805eda04
+  STPopup: c2c8c153672c8899b59ceba0804cc63fc5ac7483
 
-PODFILE CHECKSUM: 24470fc85f03ed655b0fb0914e2ab27a0f5bd42e
+PODFILE CHECKSUM: 7c448dee295d6195aba2349adc55a7dc37d6f082
 
 COCOAPODS: 1.5.3

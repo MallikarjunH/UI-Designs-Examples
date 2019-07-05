@@ -46,6 +46,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0643E2AD22CF251D0036A4EB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0618B08322C241AA0039E134 /* BabyHeightPredictorForm.swift */,
+				0618B08722C241EF0039E134 /* BabyHeightPredictorResult.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0643E2AE22CF252E0036A4EB /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				0618B08522C241D70039E134 /* BabyHeightPredictorFormCells.swift */,
+				0618B08922C2420A0039E134 /* BabyHeightPredictorResultCells.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
 		06E3630A22C204EC00E6C01C = {
 			isa = PBXGroup;
 			children = (
@@ -68,14 +86,12 @@
 			isa = PBXGroup;
 			children = (
 				06E3631622C204EC00E6C01C /* AppDelegate.swift */,
+				0643E2AD22CF251D0036A4EB /* ViewControllers */,
+				0643E2AE22CF252E0036A4EB /* TableViewCells */,
 				06E3631A22C204EC00E6C01C /* Main.storyboard */,
 				06E3631D22C204FD00E6C01C /* Assets.xcassets */,
 				06E3631F22C204FD00E6C01C /* LaunchScreen.storyboard */,
 				06E3632222C204FD00E6C01C /* Info.plist */,
-				0618B08322C241AA0039E134 /* BabyHeightPredictorForm.swift */,
-				0618B08522C241D70039E134 /* BabyHeightPredictorFormCells.swift */,
-				0618B08722C241EF0039E134 /* BabyHeightPredictorResult.swift */,
-				0618B08922C2420A0039E134 /* BabyHeightPredictorResultCells.swift */,
 			);
 			path = "Baby Height Predictor";
 			sourceTree = "<group>";
@@ -197,12 +213,14 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Baby Height Predictor/Pods-Baby Height Predictor-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/STPopup/STPopup.framework",
 				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/STPopup.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

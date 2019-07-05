@@ -7,102 +7,150 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3FD2E443CC82E7695589305CC39CE2B1 /* Pods-Baby Height Predictor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1C68ECFF1E4F746E97FF348D1F03F29 /* Pods-Baby Height Predictor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F2CEB51D9006BB2369FB3EDB9116681 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB6AF7BE4547CE64DE5711633CFFC0 /* SkyFloatingLabelTextFieldWithIcon.swift */; };
-		79F170972A9949C5BA9113DE8639E5B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		7FA7793CAB856824BAF144CA115E7C60 /* Pods-Baby Height Predictor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40ECC967838243EEE63E620212132CD9 /* Pods-Baby Height Predictor-dummy.m */; };
-		885F0D3F4B08A25EC193E1BC5F037A93 /* SkyFloatingLabelTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 477402675ED0A2988A6B58AC17AAFFA7 /* SkyFloatingLabelTextField-dummy.m */; };
-		88AC6ABE5EED3F9D268087ECD81503DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		A07D5335161D791EC749D25CA7E1A3C3 /* SkyFloatingLabelTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC73AA8035BD4108AD320A107A91F85C /* SkyFloatingLabelTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC8F02BB3BE35AA23E530A57A156AA4B /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2FD3B444C15779258A1E4254154328 /* SkyFloatingLabelTextField.swift */; };
-		C50EACB060342055161008F491AB6A79 /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEECCA755E56BD7670ACA5B8FDE8C49 /* UITextField+fixCaretPosition.swift */; };
+		0DF7D4141CF45F8FE10AA3C47C099997 /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3283274A03594704A3FD0B7B9EF2CBD2 /* UITextField+fixCaretPosition.swift */; };
+		102BE9DE4290947C14B8D827D217364B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		158F26F80A0DBBD4FFC890E8D14015DC /* STPopup.h in Headers */ = {isa = PBXBuildFile; fileRef = 628B52A70963B9F256636A5A0F75E7DB /* STPopup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26CC2CF5D0F2B874AA2A8C837187CC6F /* STPopup-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A710B80188C9F339EE00C23E50DDA474 /* STPopup-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28C97DB09D52C4D5EC68220F80E19D24 /* STPopupLeftBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E108012F05C935E7A4F7DE86017BD21C /* STPopupLeftBarItem.m */; };
+		3187EF5121754D3B88C657CC63BFB963 /* Pods-Baby Height Predictor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1C68ECFF1E4F746E97FF348D1F03F29 /* Pods-Baby Height Predictor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38D37DC9ECE024613BEB56A73DF86031 /* STPopupControllerTransitioningSlideVertical.h in Headers */ = {isa = PBXBuildFile; fileRef = DD6BFD5F362334B5F8D611BCA4E02E45 /* STPopupControllerTransitioningSlideVertical.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3979AFD7A16999EBB201C9E90C0255FE /* STPopupControllerTransitioningFade.h in Headers */ = {isa = PBXBuildFile; fileRef = FDFB4E1596D3459834401AD9EC01CAFB /* STPopupControllerTransitioningFade.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B336EAE3B78A0781BF9057FF72E2DA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		50B5C398CE4FB4CAAD75D219438A596E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		70AFD7D2A0A044B4C50240F80812D71D /* STPopupControllerTransitioningFade.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAA907804BF0FE7B200633E5D087FBE /* STPopupControllerTransitioningFade.m */; };
+		7571BD8EBF48E97D840C09030DE5602F /* STPopupNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 36385D6B855637109DAF9AB25ADA0130 /* STPopupNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9854BAC0EAA10A6777CF14A15DF56319 /* STPopup-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B84AC52400F6A0B84F43B0EB550AC255 /* STPopup-dummy.m */; };
+		A7A92355C9EB4FFEAED0A29E481FB0A5 /* UIResponder+STPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A42369511F0267087EBF20462AFBC66 /* UIResponder+STPopup.m */; };
+		A8A4A129A6D01E302378DA3853321BCE /* Pods-Baby Height Predictor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40ECC967838243EEE63E620212132CD9 /* Pods-Baby Height Predictor-dummy.m */; };
+		A99F967E0A263BB6A1DC2428B53E4CA2 /* SkyFloatingLabelTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F1114606E6A3170DDEA902AF8D50D4 /* SkyFloatingLabelTextField-dummy.m */; };
+		AEB9C700A373D202AAB66DE5D67C3330 /* STPopupControllerTransitioningSlideVertical.m in Sources */ = {isa = PBXBuildFile; fileRef = 2393A85B6DCFC0E6BA3E42AD595DF85A /* STPopupControllerTransitioningSlideVertical.m */; };
+		B06BA13D3610C4371F7774C599E0AE06 /* STPopupNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E39B6D108D6B69F210825129ABA68A7 /* STPopupNavigationBar.m */; };
+		B42021A3723460BECC6AEA884E953C49 /* STPopupLeftBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 426F61142327E92516FA279BC8C454ED /* STPopupLeftBarItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF2E7E4AD0A730D9F9E3A59B51E0035C /* UIViewController+STPopup.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E35087B6DED4D72F69CB59307981475 /* UIViewController+STPopup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C15ACA1EE5A40FA5EB170C707155B19C /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24116385C4C25048299C9579B54B904D /* SkyFloatingLabelTextFieldWithIcon.swift */; };
+		C750FA8D9444229F0690750BF64FE41C /* SkyFloatingLabelTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 333B24937A02005A3DCB0F50E7A21A19 /* SkyFloatingLabelTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9E5DC526E3F4A479A496A98ABEDBDE1 /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949D5812435DB3B720AC674F6560AD7F /* SkyFloatingLabelTextField.swift */; };
+		CD112F37951814DE3C25C169BA4FF5F5 /* UIResponder+STPopup.h in Headers */ = {isa = PBXBuildFile; fileRef = B9E5A1BCA6810240FB9FA2A354675DB0 /* UIResponder+STPopup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E16293D4FC6F19856FA3A4247E58C803 /* UIViewController+STPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 371831C04DA6C75212881825B75753FF /* UIViewController+STPopup.m */; };
+		E6D99C2826C6F1888F1698728E3B4D1B /* STPopupController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8AA380EBC913A86ED624EA3D4E9F691 /* STPopupController.m */; };
+		FB015B778BB1802B7D8127F4C462627E /* STPopupController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C52BC8495E80E2E0DA0370A5C60AB2D /* STPopupController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DE9FFAE929B1885747DEA2D9094DE6B8 /* PBXContainerItemProxy */ = {
+		2665AE54123B22C60F4F70F907A7407B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7AD97A052FBA8257F93275FD0C9AB6C6;
+			remoteGlobalIDString = 95369050C55C48DF1D7CA9A82A1C1F2B;
 			remoteInfo = SkyFloatingLabelTextField;
+		};
+		E8D0AE45A1EA8EAD1A9B92E38A321A92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D17BD620BA3AFC741F4C1402CB65CE1;
+			remoteInfo = STPopup;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		067B4E09B2AA9AF630CA980536D5851D /* Pods-Baby Height Predictor-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Baby Height Predictor-frameworks.sh"; sourceTree = "<group>"; };
-		1787DF52F3DCEFA5BA61E2310CD7A00E /* Pods_Baby_Height_Predictor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Baby_Height_Predictor.framework; path = "Pods-Baby Height Predictor.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		18AB6AF7BE4547CE64DE5711633CFFC0 /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextFieldWithIcon.swift; path = Sources/SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
+		0A42369511F0267087EBF20462AFBC66 /* UIResponder+STPopup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIResponder+STPopup.m"; path = "STPopup/UIResponder+STPopup.m"; sourceTree = "<group>"; };
+		2393A85B6DCFC0E6BA3E42AD595DF85A /* STPopupControllerTransitioningSlideVertical.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPopupControllerTransitioningSlideVertical.m; path = STPopup/STPopupControllerTransitioningSlideVertical.m; sourceTree = "<group>"; };
+		24116385C4C25048299C9579B54B904D /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextFieldWithIcon.swift; path = Sources/SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
+		2B3F5BC58CA5460998A4C8288D85F1E6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EE4651734DECEA7686DE14AA39E57AA /* STPopup.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = STPopup.modulemap; sourceTree = "<group>"; };
+		3283274A03594704A3FD0B7B9EF2CBD2 /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+fixCaretPosition.swift"; path = "Sources/UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
+		333B24937A02005A3DCB0F50E7A21A19 /* SkyFloatingLabelTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-umbrella.h"; sourceTree = "<group>"; };
+		36385D6B855637109DAF9AB25ADA0130 /* STPopupNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPopupNavigationBar.h; path = STPopup/STPopupNavigationBar.h; sourceTree = "<group>"; };
+		371831C04DA6C75212881825B75753FF /* UIViewController+STPopup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+STPopup.m"; path = "STPopup/UIViewController+STPopup.m"; sourceTree = "<group>"; };
+		379F49849046B6623C46C43533ED18F2 /* STPopup.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = STPopup.xcconfig; sourceTree = "<group>"; };
 		40ECC967838243EEE63E620212132CD9 /* Pods-Baby Height Predictor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Baby Height Predictor-dummy.m"; sourceTree = "<group>"; };
-		477402675ED0A2988A6B58AC17AAFFA7 /* SkyFloatingLabelTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkyFloatingLabelTextField-dummy.m"; sourceTree = "<group>"; };
+		426F61142327E92516FA279BC8C454ED /* STPopupLeftBarItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPopupLeftBarItem.h; path = STPopup/STPopupLeftBarItem.h; sourceTree = "<group>"; };
+		5081F18852172CFCC5D0D5BB0CFE19CF /* STPopup-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "STPopup-prefix.pch"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5C52BC8495E80E2E0DA0370A5C60AB2D /* STPopupController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPopupController.h; path = STPopup/STPopupController.h; sourceTree = "<group>"; };
+		5E35087B6DED4D72F69CB59307981475 /* UIViewController+STPopup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+STPopup.h"; path = "STPopup/UIViewController+STPopup.h"; sourceTree = "<group>"; };
 		5FF2F76DD8320E25E57D13B0055E4E6A /* Pods-Baby Height Predictor-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Baby Height Predictor-acknowledgements.markdown"; sourceTree = "<group>"; };
+		628B52A70963B9F256636A5A0F75E7DB /* STPopup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPopup.h; path = STPopup/STPopup.h; sourceTree = "<group>"; };
 		66FC6C8645238FD88BD9BAB476D0550C /* Pods-Baby Height Predictor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Baby Height Predictor.modulemap"; sourceTree = "<group>"; };
+		6D7CC21ADB61912C3EF5410521964C93 /* Pods_Baby_Height_Predictor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Baby_Height_Predictor.framework; path = "Pods-Baby Height Predictor.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76403E630E68A37D656B5664C7FC22CD /* SkyFloatingLabelTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SkyFloatingLabelTextField.framework; path = SkyFloatingLabelTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B507241E13CFF13293BDFCC14F15277 /* Pods-Baby Height Predictor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Baby Height Predictor.debug.xcconfig"; sourceTree = "<group>"; };
-		8547A24E961A2A286801CCA0B57DA15D /* SkyFloatingLabelTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-prefix.pch"; sourceTree = "<group>"; };
 		85B4872635487FDFDC275BC26DC59F4A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E39B6D108D6B69F210825129ABA68A7 /* STPopupNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPopupNavigationBar.m; path = STPopup/STPopupNavigationBar.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		96021B73AB3076CE469755681DF3DADF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		949D5812435DB3B720AC674F6560AD7F /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextField.swift; path = Sources/SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
+		A710B80188C9F339EE00C23E50DDA474 /* STPopup-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "STPopup-umbrella.h"; sourceTree = "<group>"; };
 		A87D68396A93B20054EF4084A856197B /* Pods-Baby Height Predictor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Baby Height Predictor.release.xcconfig"; sourceTree = "<group>"; };
-		CC73AA8035BD4108AD320A107A91F85C /* SkyFloatingLabelTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-umbrella.h"; sourceTree = "<group>"; };
-		CF536E2A36AF5426B119EA4A20475CFD /* SkyFloatingLabelTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SkyFloatingLabelTextField.modulemap; sourceTree = "<group>"; };
+		AFD391F6320351B95F20B2F16DE507B0 /* SkyFloatingLabelTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SkyFloatingLabelTextField.modulemap; sourceTree = "<group>"; };
+		B7F1114606E6A3170DDEA902AF8D50D4 /* SkyFloatingLabelTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkyFloatingLabelTextField-dummy.m"; sourceTree = "<group>"; };
+		B84AC52400F6A0B84F43B0EB550AC255 /* STPopup-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "STPopup-dummy.m"; sourceTree = "<group>"; };
+		B9E5A1BCA6810240FB9FA2A354675DB0 /* UIResponder+STPopup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIResponder+STPopup.h"; path = "STPopup/UIResponder+STPopup.h"; sourceTree = "<group>"; };
+		C21B7DAD942419CA1772384758E668A1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C487A681A694678AFF1845E099E3F684 /* SkyFloatingLabelTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-prefix.pch"; sourceTree = "<group>"; };
 		D086026B4738F6AA2E1D9CA4C1C37844 /* Pods-Baby Height Predictor-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Baby Height Predictor-acknowledgements.plist"; sourceTree = "<group>"; };
-		D4B41BE8D4CB4B6421A83E322438D21F /* SkyFloatingLabelTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.xcconfig; sourceTree = "<group>"; };
 		D805DB73EB213FF2119D410BC9374452 /* Pods-Baby Height Predictor-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Baby Height Predictor-resources.sh"; sourceTree = "<group>"; };
-		DC2FD3B444C15779258A1E4254154328 /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextField.swift; path = Sources/SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
-		DFEECCA755E56BD7670ACA5B8FDE8C49 /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+fixCaretPosition.swift"; path = "Sources/UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
+		DCAA907804BF0FE7B200633E5D087FBE /* STPopupControllerTransitioningFade.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPopupControllerTransitioningFade.m; path = STPopup/STPopupControllerTransitioningFade.m; sourceTree = "<group>"; };
+		DD6BFD5F362334B5F8D611BCA4E02E45 /* STPopupControllerTransitioningSlideVertical.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPopupControllerTransitioningSlideVertical.h; path = STPopup/STPopupControllerTransitioningSlideVertical.h; sourceTree = "<group>"; };
+		E108012F05C935E7A4F7DE86017BD21C /* STPopupLeftBarItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPopupLeftBarItem.m; path = STPopup/STPopupLeftBarItem.m; sourceTree = "<group>"; };
 		E1C68ECFF1E4F746E97FF348D1F03F29 /* Pods-Baby Height Predictor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Baby Height Predictor-umbrella.h"; sourceTree = "<group>"; };
-		F159872CA9D032FEAF19DCEAC3624B3B /* SkyFloatingLabelTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SkyFloatingLabelTextField.framework; path = SkyFloatingLabelTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E57A93BC75DC7314C525602DBCB465D7 /* STPopup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = STPopup.framework; path = STPopup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8AA380EBC913A86ED624EA3D4E9F691 /* STPopupController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPopupController.m; path = STPopup/STPopupController.m; sourceTree = "<group>"; };
+		F51356BE46CCA29909ECFE2300677982 /* SkyFloatingLabelTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.xcconfig; sourceTree = "<group>"; };
+		FDFB4E1596D3459834401AD9EC01CAFB /* STPopupControllerTransitioningFade.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPopupControllerTransitioningFade.h; path = STPopup/STPopupControllerTransitioningFade.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		301DFA3BAD3E124AEB7CB4E7D2708BF2 /* Frameworks */ = {
+		233730F76C23237A122EE702CECF1B19 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79F170972A9949C5BA9113DE8639E5B5 /* Foundation.framework in Frameworks */,
+				50B5C398CE4FB4CAAD75D219438A596E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B8C0B2536DA689C5D9889C7B1805BAC4 /* Frameworks */ = {
+		B80431E34CFF01E722E26ED695B08579 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88AC6ABE5EED3F9D268087ECD81503DF /* Foundation.framework in Frameworks */,
+				4B336EAE3B78A0781BF9057FF72E2DA4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C85D1E8BD9328246050EE80B8A933FB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				102BE9DE4290947C14B8D827D217364B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1828E4AB5569613A940A30EFF20548CD /* Products */ = {
+		09EDE454118B4B1B377CFBDB975FB73F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1787DF52F3DCEFA5BA61E2310CD7A00E /* Pods_Baby_Height_Predictor.framework */,
-				F159872CA9D032FEAF19DCEAC3624B3B /* SkyFloatingLabelTextField.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		3E538C50B5FBAB3A28B0BDDB5EEAA44A /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BE06ED5906FCC1C2AA7EDA322B1D832D /* SkyFloatingLabelTextField */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		4CB2F19FE17F98D8D75BDB493855D972 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				96021B73AB3076CE469755681DF3DADF /* Info.plist */,
-				CF536E2A36AF5426B119EA4A20475CFD /* SkyFloatingLabelTextField.modulemap */,
-				D4B41BE8D4CB4B6421A83E322438D21F /* SkyFloatingLabelTextField.xcconfig */,
-				477402675ED0A2988A6B58AC17AAFFA7 /* SkyFloatingLabelTextField-dummy.m */,
-				8547A24E961A2A286801CCA0B57DA15D /* SkyFloatingLabelTextField-prefix.pch */,
-				CC73AA8035BD4108AD320A107A91F85C /* SkyFloatingLabelTextField-umbrella.h */,
+				2B3F5BC58CA5460998A4C8288D85F1E6 /* Info.plist */,
+				2EE4651734DECEA7686DE14AA39E57AA /* STPopup.modulemap */,
+				379F49849046B6623C46C43533ED18F2 /* STPopup.xcconfig */,
+				B84AC52400F6A0B84F43B0EB550AC255 /* STPopup-dummy.m */,
+				5081F18852172CFCC5D0D5BB0CFE19CF /* STPopup-prefix.pch */,
+				A710B80188C9F339EE00C23E50DDA474 /* STPopup-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/SkyFloatingLabelTextField";
+			path = "../Target Support Files/STPopup";
+			sourceTree = "<group>";
+		};
+		16F4D97B3B5CCFCD40E5F31588499C3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D7CC21ADB61912C3EF5410521964C93 /* Pods_Baby_Height_Predictor.framework */,
+				76403E630E68A37D656B5664C7FC22CD /* SkyFloatingLabelTextField.framework */,
+				E57A93BC75DC7314C525602DBCB465D7 /* STPopup.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
@@ -113,13 +161,25 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		5F90107460BB438AC778552FD5244380 /* SkyFloatingLabelTextField */ = {
+			isa = PBXGroup;
+			children = (
+				949D5812435DB3B720AC674F6560AD7F /* SkyFloatingLabelTextField.swift */,
+				24116385C4C25048299C9579B54B904D /* SkyFloatingLabelTextFieldWithIcon.swift */,
+				3283274A03594704A3FD0B7B9EF2CBD2 /* UITextField+fixCaretPosition.swift */,
+				C73CF021FF0D201B41F3A8DB63A2B001 /* Support Files */,
+			);
+			name = SkyFloatingLabelTextField;
+			path = SkyFloatingLabelTextField;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				3E538C50B5FBAB3A28B0BDDB5EEAA44A /* Pods */,
-				1828E4AB5569613A940A30EFF20548CD /* Products */,
+				BF218FDC3C9BB54831E07D146AE32F78 /* Pods */,
+				16F4D97B3B5CCFCD40E5F31588499C3F /* Products */,
 				9C735F1BC9C479F4756DDE7C3C39D738 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -140,16 +200,51 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BE06ED5906FCC1C2AA7EDA322B1D832D /* SkyFloatingLabelTextField */ = {
+		BF218FDC3C9BB54831E07D146AE32F78 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DC2FD3B444C15779258A1E4254154328 /* SkyFloatingLabelTextField.swift */,
-				18AB6AF7BE4547CE64DE5711633CFFC0 /* SkyFloatingLabelTextFieldWithIcon.swift */,
-				DFEECCA755E56BD7670ACA5B8FDE8C49 /* UITextField+fixCaretPosition.swift */,
-				4CB2F19FE17F98D8D75BDB493855D972 /* Support Files */,
+				5F90107460BB438AC778552FD5244380 /* SkyFloatingLabelTextField */,
+				EFA3F78478ED53E89D0163A1A6114A13 /* STPopup */,
 			);
-			name = SkyFloatingLabelTextField;
-			path = SkyFloatingLabelTextField;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C73CF021FF0D201B41F3A8DB63A2B001 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C21B7DAD942419CA1772384758E668A1 /* Info.plist */,
+				AFD391F6320351B95F20B2F16DE507B0 /* SkyFloatingLabelTextField.modulemap */,
+				F51356BE46CCA29909ECFE2300677982 /* SkyFloatingLabelTextField.xcconfig */,
+				B7F1114606E6A3170DDEA902AF8D50D4 /* SkyFloatingLabelTextField-dummy.m */,
+				C487A681A694678AFF1845E099E3F684 /* SkyFloatingLabelTextField-prefix.pch */,
+				333B24937A02005A3DCB0F50E7A21A19 /* SkyFloatingLabelTextField-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SkyFloatingLabelTextField";
+			sourceTree = "<group>";
+		};
+		EFA3F78478ED53E89D0163A1A6114A13 /* STPopup */ = {
+			isa = PBXGroup;
+			children = (
+				628B52A70963B9F256636A5A0F75E7DB /* STPopup.h */,
+				5C52BC8495E80E2E0DA0370A5C60AB2D /* STPopupController.h */,
+				E8AA380EBC913A86ED624EA3D4E9F691 /* STPopupController.m */,
+				FDFB4E1596D3459834401AD9EC01CAFB /* STPopupControllerTransitioningFade.h */,
+				DCAA907804BF0FE7B200633E5D087FBE /* STPopupControllerTransitioningFade.m */,
+				DD6BFD5F362334B5F8D611BCA4E02E45 /* STPopupControllerTransitioningSlideVertical.h */,
+				2393A85B6DCFC0E6BA3E42AD595DF85A /* STPopupControllerTransitioningSlideVertical.m */,
+				426F61142327E92516FA279BC8C454ED /* STPopupLeftBarItem.h */,
+				E108012F05C935E7A4F7DE86017BD21C /* STPopupLeftBarItem.m */,
+				36385D6B855637109DAF9AB25ADA0130 /* STPopupNavigationBar.h */,
+				8E39B6D108D6B69F210825129ABA68A7 /* STPopupNavigationBar.m */,
+				B9E5A1BCA6810240FB9FA2A354675DB0 /* UIResponder+STPopup.h */,
+				0A42369511F0267087EBF20462AFBC66 /* UIResponder+STPopup.m */,
+				5E35087B6DED4D72F69CB59307981475 /* UIViewController+STPopup.h */,
+				371831C04DA6C75212881825B75753FF /* UIViewController+STPopup.m */,
+				09EDE454118B4B1B377CFBDB975FB73F /* Support Files */,
+			);
+			name = STPopup;
+			path = STPopup;
 			sourceTree = "<group>";
 		};
 		F13A17A5B1E9925E07CE0552EF5DA4AF /* Pods-Baby Height Predictor */ = {
@@ -173,33 +268,67 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		43B7DF61A03CCD45AA720684EC273D10 /* Headers */ = {
+		4CDA9391187491D7F6C548337A98E76F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FD2E443CC82E7695589305CC39CE2B1 /* Pods-Baby Height Predictor-umbrella.h in Headers */,
+				26CC2CF5D0F2B874AA2A8C837187CC6F /* STPopup-umbrella.h in Headers */,
+				158F26F80A0DBBD4FFC890E8D14015DC /* STPopup.h in Headers */,
+				FB015B778BB1802B7D8127F4C462627E /* STPopupController.h in Headers */,
+				3979AFD7A16999EBB201C9E90C0255FE /* STPopupControllerTransitioningFade.h in Headers */,
+				38D37DC9ECE024613BEB56A73DF86031 /* STPopupControllerTransitioningSlideVertical.h in Headers */,
+				B42021A3723460BECC6AEA884E953C49 /* STPopupLeftBarItem.h in Headers */,
+				7571BD8EBF48E97D840C09030DE5602F /* STPopupNavigationBar.h in Headers */,
+				CD112F37951814DE3C25C169BA4FF5F5 /* UIResponder+STPopup.h in Headers */,
+				BF2E7E4AD0A730D9F9E3A59B51E0035C /* UIViewController+STPopup.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D7D34437251BBCD6217BEB6BB8DC51EB /* Headers */ = {
+		660620E60E830A82D0BF1778B2FB4043 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A07D5335161D791EC749D25CA7E1A3C3 /* SkyFloatingLabelTextField-umbrella.h in Headers */,
+				C750FA8D9444229F0690750BF64FE41C /* SkyFloatingLabelTextField-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BC2C1A318F15878D2E106E2C3EB6A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3187EF5121754D3B88C657CC63BFB963 /* Pods-Baby Height Predictor-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7AD97A052FBA8257F93275FD0C9AB6C6 /* SkyFloatingLabelTextField */ = {
+		7D17BD620BA3AFC741F4C1402CB65CE1 /* STPopup */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B19BF296CB2BCAD5C5F33629B22B75FC /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */;
+			buildConfigurationList = 4AE7A6C680B4106BB1BB31C97F543B5B /* Build configuration list for PBXNativeTarget "STPopup" */;
 			buildPhases = (
-				D7D34437251BBCD6217BEB6BB8DC51EB /* Headers */,
-				2C33412B51F55F6A01049B3F68B071C2 /* Sources */,
-				301DFA3BAD3E124AEB7CB4E7D2708BF2 /* Frameworks */,
-				A24C5FE43C13BF0DD909183C38880FA1 /* Resources */,
+				4CDA9391187491D7F6C548337A98E76F /* Headers */,
+				1B4A8D562B70A7C5D94AFACFD89A5105 /* Sources */,
+				233730F76C23237A122EE702CECF1B19 /* Frameworks */,
+				080F2243026F1BFD293D0B93D3A12256 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STPopup;
+			productName = STPopup;
+			productReference = E57A93BC75DC7314C525602DBCB465D7 /* STPopup.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		95369050C55C48DF1D7CA9A82A1C1F2B /* SkyFloatingLabelTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EC5B15DFDCB617AE3EC0499623888E4 /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */;
+			buildPhases = (
+				660620E60E830A82D0BF1778B2FB4043 /* Headers */,
+				8131FCABC90DFFC9E9F1DD4C4F9C5666 /* Sources */,
+				B80431E34CFF01E722E26ED695B08579 /* Frameworks */,
+				312860686774A8A612801DD545F5D826 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -207,26 +336,27 @@
 			);
 			name = SkyFloatingLabelTextField;
 			productName = SkyFloatingLabelTextField;
-			productReference = F159872CA9D032FEAF19DCEAC3624B3B /* SkyFloatingLabelTextField.framework */;
+			productReference = 76403E630E68A37D656B5664C7FC22CD /* SkyFloatingLabelTextField.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C97B69C4E15C9B50FA99797A12183F87 /* Pods-Baby Height Predictor */ = {
+		ED25B43F1588223AA6A22E41B0EB3F12 /* Pods-Baby Height Predictor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1A4465B8E6048DA69935988C361E1716 /* Build configuration list for PBXNativeTarget "Pods-Baby Height Predictor" */;
+			buildConfigurationList = 34EAC4B362E33AEA884CC60739D0B937 /* Build configuration list for PBXNativeTarget "Pods-Baby Height Predictor" */;
 			buildPhases = (
-				43B7DF61A03CCD45AA720684EC273D10 /* Headers */,
-				9D7CB8F51EEB770A96C8666106A1D4DE /* Sources */,
-				B8C0B2536DA689C5D9889C7B1805BAC4 /* Frameworks */,
-				EA49C48DFB7CB381EA6E6612C8A1E5A3 /* Resources */,
+				B9BC2C1A318F15878D2E106E2C3EB6A4 /* Headers */,
+				5565538897F5FD03717C71D2A4A71990 /* Sources */,
+				C85D1E8BD9328246050EE80B8A933FB4 /* Frameworks */,
+				60DD4430737795F32F3B35DCC3DE10DD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AEEA44F0705A7A4AC41B937EF2D3CB33 /* PBXTargetDependency */,
+				58FCC42F1409D20E8E0F86AF89E6EA0B /* PBXTargetDependency */,
+				BDDED45840AA30957DAFA404BFAB4D77 /* PBXTargetDependency */,
 			);
 			name = "Pods-Baby Height Predictor";
 			productName = "Pods-Baby Height Predictor";
-			productReference = 1787DF52F3DCEFA5BA61E2310CD7A00E /* Pods_Baby_Height_Predictor.framework */;
+			productReference = 6D7CC21ADB61912C3EF5410521964C93 /* Pods_Baby_Height_Predictor.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -246,25 +376,33 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 1828E4AB5569613A940A30EFF20548CD /* Products */;
+			productRefGroup = 16F4D97B3B5CCFCD40E5F31588499C3F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C97B69C4E15C9B50FA99797A12183F87 /* Pods-Baby Height Predictor */,
-				7AD97A052FBA8257F93275FD0C9AB6C6 /* SkyFloatingLabelTextField */,
+				ED25B43F1588223AA6A22E41B0EB3F12 /* Pods-Baby Height Predictor */,
+				95369050C55C48DF1D7CA9A82A1C1F2B /* SkyFloatingLabelTextField */,
+				7D17BD620BA3AFC741F4C1402CB65CE1 /* STPopup */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A24C5FE43C13BF0DD909183C38880FA1 /* Resources */ = {
+		080F2243026F1BFD293D0B93D3A12256 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA49C48DFB7CB381EA6E6612C8A1E5A3 /* Resources */ = {
+		312860686774A8A612801DD545F5D826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60DD4430737795F32F3B35DCC3DE10DD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -274,40 +412,170 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2C33412B51F55F6A01049B3F68B071C2 /* Sources */ = {
+		1B4A8D562B70A7C5D94AFACFD89A5105 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				885F0D3F4B08A25EC193E1BC5F037A93 /* SkyFloatingLabelTextField-dummy.m in Sources */,
-				BC8F02BB3BE35AA23E530A57A156AA4B /* SkyFloatingLabelTextField.swift in Sources */,
-				4F2CEB51D9006BB2369FB3EDB9116681 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
-				C50EACB060342055161008F491AB6A79 /* UITextField+fixCaretPosition.swift in Sources */,
+				9854BAC0EAA10A6777CF14A15DF56319 /* STPopup-dummy.m in Sources */,
+				E6D99C2826C6F1888F1698728E3B4D1B /* STPopupController.m in Sources */,
+				70AFD7D2A0A044B4C50240F80812D71D /* STPopupControllerTransitioningFade.m in Sources */,
+				AEB9C700A373D202AAB66DE5D67C3330 /* STPopupControllerTransitioningSlideVertical.m in Sources */,
+				28C97DB09D52C4D5EC68220F80E19D24 /* STPopupLeftBarItem.m in Sources */,
+				B06BA13D3610C4371F7774C599E0AE06 /* STPopupNavigationBar.m in Sources */,
+				A7A92355C9EB4FFEAED0A29E481FB0A5 /* UIResponder+STPopup.m in Sources */,
+				E16293D4FC6F19856FA3A4247E58C803 /* UIViewController+STPopup.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D7CB8F51EEB770A96C8666106A1D4DE /* Sources */ = {
+		5565538897F5FD03717C71D2A4A71990 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FA7793CAB856824BAF144CA115E7C60 /* Pods-Baby Height Predictor-dummy.m in Sources */,
+				A8A4A129A6D01E302378DA3853321BCE /* Pods-Baby Height Predictor-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8131FCABC90DFFC9E9F1DD4C4F9C5666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99F967E0A263BB6A1DC2428B53E4CA2 /* SkyFloatingLabelTextField-dummy.m in Sources */,
+				C9E5DC526E3F4A479A496A98ABEDBDE1 /* SkyFloatingLabelTextField.swift in Sources */,
+				C15ACA1EE5A40FA5EB170C707155B19C /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
+				0DF7D4141CF45F8FE10AA3C47C099997 /* UITextField+fixCaretPosition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AEEA44F0705A7A4AC41B937EF2D3CB33 /* PBXTargetDependency */ = {
+		58FCC42F1409D20E8E0F86AF89E6EA0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = STPopup;
+			target = 7D17BD620BA3AFC741F4C1402CB65CE1 /* STPopup */;
+			targetProxy = E8D0AE45A1EA8EAD1A9B92E38A321A92 /* PBXContainerItemProxy */;
+		};
+		BDDED45840AA30957DAFA404BFAB4D77 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SkyFloatingLabelTextField;
-			target = 7AD97A052FBA8257F93275FD0C9AB6C6 /* SkyFloatingLabelTextField */;
-			targetProxy = DE9FFAE929B1885747DEA2D9094DE6B8 /* PBXContainerItemProxy */;
+			target = 95369050C55C48DF1D7CA9A82A1C1F2B /* SkyFloatingLabelTextField */;
+			targetProxy = 2665AE54123B22C60F4F70F907A7407B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		558435D6C86D60245F4CA149B73035BA /* Release */ = {
+		271E7A4F5E9AF147237A39AA5D0CFF64 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A87D68396A93B20054EF4084A856197B /* Pods-Baby Height Predictor.release.xcconfig */;
+			baseConfigurationReference = F51356BE46CCA29909ECFE2300677982 /* SkyFloatingLabelTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
+				PRODUCT_MODULE_NAME = SkyFloatingLabelTextField;
+				PRODUCT_NAME = SkyFloatingLabelTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		31666F1B65427820948DCE28005917CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 379F49849046B6623C46C43533ED18F2 /* STPopup.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/STPopup/STPopup-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/STPopup/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/STPopup/STPopup.modulemap";
+				PRODUCT_MODULE_NAME = STPopup;
+				PRODUCT_NAME = STPopup;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E4FF0E1126571FB8C07FA1876B95DCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F51356BE46CCA29909ECFE2300677982 /* SkyFloatingLabelTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
+				PRODUCT_MODULE_NAME = SkyFloatingLabelTextField;
+				PRODUCT_NAME = SkyFloatingLabelTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		89B34B5D74FF0572EB87405FD970D5C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B507241E13CFF13293BDFCC14F15277 /* Pods-Baby Height Predictor.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -337,45 +605,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6459F7D0CAABBE59290681885DF19D58 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4B41BE8D4CB4B6421A83E322438D21F /* SkyFloatingLabelTextField.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
-				PRODUCT_MODULE_NAME = SkyFloatingLabelTextField;
-				PRODUCT_NAME = SkyFloatingLabelTextField;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -441,9 +672,9 @@
 			};
 			name = Release;
 		};
-		B2A86B408E7AB48030C6174136E4BB7B /* Debug */ = {
+		C06C184971CF055F8E4F8B8ACEC006C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B507241E13CFF13293BDFCC14F15277 /* Pods-Baby Height Predictor.debug.xcconfig */;
+			baseConfigurationReference = A87D68396A93B20054EF4084A856197B /* Pods-Baby Height Predictor.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -473,17 +704,18 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		B5B3FAAE85A41F44D29B513DBEBE9DDB /* Release */ = {
+		E7EAE78C15367598395B372C94331141 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4B41BE8D4CB4B6421A83E322438D21F /* SkyFloatingLabelTextField.xcconfig */;
+			baseConfigurationReference = 379F49849046B6623C46C43533ED18F2 /* STPopup.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -494,8 +726,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/STPopup/STPopup-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/STPopup/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -503,14 +735,12 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
-				PRODUCT_MODULE_NAME = SkyFloatingLabelTextField;
-				PRODUCT_NAME = SkyFloatingLabelTextField;
+				MODULEMAP_FILE = "Target Support Files/STPopup/STPopup.modulemap";
+				PRODUCT_MODULE_NAME = STPopup;
+				PRODUCT_NAME = STPopup;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -586,11 +816,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1A4465B8E6048DA69935988C361E1716 /* Build configuration list for PBXNativeTarget "Pods-Baby Height Predictor" */ = {
+		1EC5B15DFDCB617AE3EC0499623888E4 /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B2A86B408E7AB48030C6174136E4BB7B /* Debug */,
-				558435D6C86D60245F4CA149B73035BA /* Release */,
+				6E4FF0E1126571FB8C07FA1876B95DCB /* Debug */,
+				271E7A4F5E9AF147237A39AA5D0CFF64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -604,11 +834,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B19BF296CB2BCAD5C5F33629B22B75FC /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */ = {
+		34EAC4B362E33AEA884CC60739D0B937 /* Build configuration list for PBXNativeTarget "Pods-Baby Height Predictor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6459F7D0CAABBE59290681885DF19D58 /* Debug */,
-				B5B3FAAE85A41F44D29B513DBEBE9DDB /* Release */,
+				89B34B5D74FF0572EB87405FD970D5C4 /* Debug */,
+				C06C184971CF055F8E4F8B8ACEC006C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AE7A6C680B4106BB1BB31C97F543B5B /* Build configuration list for PBXNativeTarget "STPopup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31666F1B65427820948DCE28005917CB /* Debug */,
+				E7EAE78C15367598395B372C94331141 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

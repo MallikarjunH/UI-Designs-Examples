@@ -6,5 +6,6 @@ target 'Baby Height Predictor' do
   use_frameworks!
 
   pod 'SkyFloatingLabelTextField', '~> 3.0'
+  pod 'STPopup'
 
 end

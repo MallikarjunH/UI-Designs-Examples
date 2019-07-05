@@ -91,7 +91,7 @@
                                 <rect key="frame" x="0.0" y="94" width="414" height="577"/>
                                 <color key="backgroundColor" red="0.95294117649999999" green="0.95686274510000002" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="50" id="T9Q-tl-6FE">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="BabyHeightPredictorFormCell0Id" rowHeight="50" id="T9Q-tl-6FE" customClass="BabyHeightPredictorFormCell0" customModule="Baby_Height_Predictor" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="T9Q-tl-6FE" id="kIR-ob-pJY">
@@ -127,7 +127,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="70" id="e22-em-SAH">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="BabyHeightPredictorFormCell1Id" rowHeight="70" id="e22-em-SAH" customClass="BabyHeightPredictorFormCell1" customModule="Baby_Height_Predictor" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="78" width="414" height="70"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="e22-em-SAH" id="wQ6-Ke-VfY">
@@ -181,8 +181,12 @@
                                                 <constraint firstAttribute="trailing" secondItem="A5G-GX-Fj4" secondAttribute="trailing" id="qSg-vg-eUW"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="femaleButton" destination="u9e-yn-Jtp" id="SDC-XD-Ly7"/>
+                                            <outlet property="maleButton" destination="8Uc-Zh-3bU" id="Wkf-5e-qOs"/>
+                                        </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="173" id="G4s-vV-9AV">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="BabyHeightPredictorFormCell2Id" rowHeight="173" id="G4s-vV-9AV" customClass="BabyHeightPredictorFormCell2" customModule="Baby_Height_Predictor" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="148" width="414" height="173"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="G4s-vV-9AV" id="3jm-AY-k6Z">
@@ -213,6 +217,9 @@
                                                         </userDefinedRuntimeAttribute>
                                                         <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Father’s Height"/>
                                                     </userDefinedRuntimeAttributes>
+                                                    <connections>
+                                                        <outlet property="delegate" destination="669-qI-Gbp" id="Eko-dy-77w"/>
+                                                    </connections>
                                                 </textField>
                                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Mother’s Height" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kwX-cZ-M4O" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
                                                     <rect key="frame" x="20" y="62" width="373" height="50"/>
@@ -238,6 +245,9 @@
                                                         </userDefinedRuntimeAttribute>
                                                         <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Mother’s Height"/>
                                                     </userDefinedRuntimeAttributes>
+                                                    <connections>
+                                                        <outlet property="delegate" destination="669-qI-Gbp" id="cCY-Qe-1Bf"/>
+                                                    </connections>
                                                 </textField>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Down_arrow" translatesAutoresizingMaskIntoConstraints="NO" id="H63-dE-AQK">
                                                     <rect key="frame" x="370" y="82" width="10" height="6"/>
@@ -269,8 +279,16 @@
                                                 <constraint firstItem="02G-fW-NIj" firstAttribute="top" secondItem="3jm-AY-k6Z" secondAttribute="top" constant="5" id="yEU-fQ-DhL"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="fatherHeightTextField" destination="02G-fW-NIj" id="v6T-bs-axD"/>
+                                            <outlet property="motherHeightTextField" destination="kwX-cZ-M4O" id="2Pw-WU-SPU"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="669-qI-Gbp" id="mOH-mI-ZFg"/>
+                                    <outlet property="delegate" destination="669-qI-Gbp" id="AGt-YL-X5X"/>
+                                </connections>
                             </tableView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W4V-hm-qd5">
                                 <rect key="frame" x="0.0" y="671" width="414" height="65"/>
