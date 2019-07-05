@@ -1,0 +1,6 @@
+framework module Pods_Baby_Height_Predictor {
+  umbrella header "Pods-Baby Height Predictor-umbrella.h"
+
+  export *
+  module * { export * }
+}

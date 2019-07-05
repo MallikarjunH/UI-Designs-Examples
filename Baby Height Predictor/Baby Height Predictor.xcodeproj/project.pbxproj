@@ -15,6 +15,7 @@
 		06E3631C22C204EC00E6C01C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06E3631A22C204EC00E6C01C /* Main.storyboard */; };
 		06E3631E22C204FD00E6C01C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06E3631D22C204FD00E6C01C /* Assets.xcassets */; };
 		06E3632122C204FD00E6C01C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06E3631F22C204FD00E6C01C /* LaunchScreen.storyboard */; };
+		DC4259814277C9D73F5E7BBB /* Pods_Baby_Height_Predictor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C91352DFEEF6B2527523FD /* Pods_Baby_Height_Predictor.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,9 @@
 		06E3631D22C204FD00E6C01C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06E3632022C204FD00E6C01C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06E3632222C204FD00E6C01C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C91352DFEEF6B2527523FD /* Pods_Baby_Height_Predictor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Baby_Height_Predictor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6A967CA1E863BB75BD7C9ED /* Pods-Baby Height Predictor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baby Height Predictor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Baby Height Predictor/Pods-Baby Height Predictor.debug.xcconfig"; sourceTree = "<group>"; };
+		E099D9BC36FF95FE4E62A47A /* Pods-Baby Height Predictor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baby Height Predictor.release.xcconfig"; path = "Pods/Target Support Files/Pods-Baby Height Predictor/Pods-Baby Height Predictor.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC4259814277C9D73F5E7BBB /* Pods_Baby_Height_Predictor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +51,8 @@
 			children = (
 				06E3631522C204EC00E6C01C /* Baby Height Predictor */,
 				06E3631422C204EC00E6C01C /* Products */,
+				A90A536909BC4BC7F104F7C2 /* Pods */,
+				340176D92F64AFDD1BDFDBFA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +80,23 @@
 			path = "Baby Height Predictor";
 			sourceTree = "<group>";
 		};
+		340176D92F64AFDD1BDFDBFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84C91352DFEEF6B2527523FD /* Pods_Baby_Height_Predictor.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A90A536909BC4BC7F104F7C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6A967CA1E863BB75BD7C9ED /* Pods-Baby Height Predictor.debug.xcconfig */,
+				E099D9BC36FF95FE4E62A47A /* Pods-Baby Height Predictor.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -80,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 06E3632522C204FD00E6C01C /* Build configuration list for PBXNativeTarget "Baby Height Predictor" */;
 			buildPhases = (
+				24C4641E7665ED68EDAB5E5B /* [CP] Check Pods Manifest.lock */,
 				06E3630F22C204EC00E6C01C /* Sources */,
 				06E3631022C204EC00E6C01C /* Frameworks */,
 				06E3631122C204EC00E6C01C /* Resources */,
+				43F40894E9B3EA619606FF44 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -138,6 +164,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24C4641E7665ED68EDAB5E5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Baby Height Predictor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43F40894E9B3EA619606FF44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Baby Height Predictor/Pods-Baby Height Predictor-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Baby Height Predictor/Pods-Baby Height Predictor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		06E3630F22C204EC00E6C01C /* Sources */ = {
@@ -292,6 +365,7 @@
 		};
 		06E3632622C204FD00E6C01C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6A967CA1E863BB75BD7C9ED /* Pods-Baby Height Predictor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -310,6 +384,7 @@
 		};
 		06E3632722C204FD00E6C01C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E099D9BC36FF95FE4E62A47A /* Pods-Baby Height Predictor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
