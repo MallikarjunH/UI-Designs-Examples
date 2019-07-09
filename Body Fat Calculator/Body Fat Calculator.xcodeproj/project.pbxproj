@@ -44,8 +44,8 @@
 		0625030D22BCFFBF001743AE /* TestVC */ = {
 			isa = PBXGroup;
 			children = (
-				065ED87B22BB583C00C65D0D /* ViewController.swift */,
-				065ED88B22BB5BE000C65D0D /* TableViewCells.swift */,
+				0625030F22BD008E001743AE /* BodyFatCalculatorResult.swift */,
+				0625031122BD00AB001743AE /* BodyFatCalculatorResultCells.swift */,
 			);
 			path = TestVC;
 			sourceTree = "<group>";
@@ -53,8 +53,8 @@
 		0625030E22BCFFC8001743AE /* BFC */ = {
 			isa = PBXGroup;
 			children = (
-				0625030F22BD008E001743AE /* BodyFatCalculatorResult.swift */,
-				0625031122BD00AB001743AE /* BodyFatCalculatorResultCells.swift */,
+				065ED87B22BB583C00C65D0D /* ViewController.swift */,
+				065ED88B22BB5BE000C65D0D /* TableViewCells.swift */,
 			);
 			path = BFC;
 			sourceTree = "<group>";
