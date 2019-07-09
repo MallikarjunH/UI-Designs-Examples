@@ -11,6 +11,7 @@
 		0618B08622C241D70039E134 /* BabyHeightPredictorFormCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0618B08522C241D70039E134 /* BabyHeightPredictorFormCells.swift */; };
 		0618B08822C241EF0039E134 /* BabyHeightPredictorResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0618B08722C241EF0039E134 /* BabyHeightPredictorResult.swift */; };
 		0618B08A22C2420A0039E134 /* BabyHeightPredictorResultCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0618B08922C2420A0039E134 /* BabyHeightPredictorResultCells.swift */; };
+		0643E2B022CF29510036A4EB /* HeightPickerPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0643E2AF22CF29510036A4EB /* HeightPickerPopUp.swift */; };
 		06E3631722C204EC00E6C01C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E3631622C204EC00E6C01C /* AppDelegate.swift */; };
 		06E3631C22C204EC00E6C01C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06E3631A22C204EC00E6C01C /* Main.storyboard */; };
 		06E3631E22C204FD00E6C01C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06E3631D22C204FD00E6C01C /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 		0618B08522C241D70039E134 /* BabyHeightPredictorFormCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyHeightPredictorFormCells.swift; sourceTree = "<group>"; };
 		0618B08722C241EF0039E134 /* BabyHeightPredictorResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyHeightPredictorResult.swift; sourceTree = "<group>"; };
 		0618B08922C2420A0039E134 /* BabyHeightPredictorResultCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyHeightPredictorResultCells.swift; sourceTree = "<group>"; };
+		0643E2AF22CF29510036A4EB /* HeightPickerPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightPickerPopUp.swift; sourceTree = "<group>"; };
 		06E3631322C204EC00E6C01C /* Baby Height Predictor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Baby Height Predictor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06E3631622C204EC00E6C01C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06E3631B22C204EC00E6C01C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				06E3631622C204EC00E6C01C /* AppDelegate.swift */,
+				0643E2AF22CF29510036A4EB /* HeightPickerPopUp.swift */,
 				0643E2AD22CF251D0036A4EB /* ViewControllers */,
 				0643E2AE22CF252E0036A4EB /* TableViewCells */,
 				06E3631A22C204EC00E6C01C /* Main.storyboard */,
@@ -236,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0618B08A22C2420A0039E134 /* BabyHeightPredictorResultCells.swift in Sources */,
+				0643E2B022CF29510036A4EB /* HeightPickerPopUp.swift in Sources */,
 				0618B08822C241EF0039E134 /* BabyHeightPredictorResult.swift in Sources */,
 				0618B08422C241AA0039E134 /* BabyHeightPredictorForm.swift in Sources */,
 				06E3631722C204EC00E6C01C /* AppDelegate.swift in Sources */,

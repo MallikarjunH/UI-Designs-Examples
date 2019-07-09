@@ -7,9 +7,12 @@
 //
 
 import UIKit
+import STPopup
 
-class BabyHeightPredictorForm: UIViewController,UITableViewDelegate,UITableViewDataSource {
+class BabyHeightPredictorForm: UIViewController,UITableViewDelegate,UITableViewDataSource,HeightSelectionPopUpVCDelegate {
 
+    var popUpViewController: STPopupController!
+    
     var parentsHeightArray:[String] = []
     var textFieldEditEnabled = false
     var isGenderButtonSelected = false
@@ -29,14 +32,14 @@ class BabyHeightPredictorForm: UIViewController,UITableViewDelegate,UITableViewD
 
         // Do any additional setup after loading the view.
         
-        self.progressViewOutlet.progress = Float(progressPercentageValue)
-        let transform : CGAffineTransform = CGAffineTransform(scaleX: 1.0, y: 3.0)
-        progressViewOutlet.transform = transform
-        progressViewOutlet.clipsToBounds = true
-        progressViewOutlet.progressTintColor = UIColor(red: 0.00, green: 0.78, blue: 0.71, alpha: 1)
-        progressViewOutlet.trackTintColor =  UIColor(red: 0.91, green: 0.89, blue: 0.89, alpha: 1)
+//        self.progressViewOutlet.progress = Float(progressPercentageValue)
+//        let transform : CGAffineTransform = CGAffineTransform(scaleX: 1.0, y: 3.0)
+//        progressViewOutlet.transform = transform
+//        progressViewOutlet.clipsToBounds = true
+//        progressViewOutlet.progressTintColor = UIColor(red: 0.00, green: 0.78, blue: 0.71, alpha: 1)
+//        progressViewOutlet.trackTintColor =  UIColor(red: 0.91, green: 0.89, blue: 0.89, alpha: 1)
         
-        calculateButtonOutlet.layer.cornerRadius = 2
+       // calculateButtonOutlet.layer.cornerRadius = 2
         
         self.mainTableView!.tableFooterView = UIView()
         mainTableView.allowsSelection = false
@@ -178,8 +181,8 @@ class BabyHeightPredictorForm: UIViewController,UITableViewDelegate,UITableViewD
     
     func showDropDownWithData(dropDownData: [String]) {
         let gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(dismissPopUp(_:)))
-        let storyBoard = UIStoryboard.init(name: "HealthTools", bundle: nil)
-        let popUpVC = storyBoard.instantiateViewController(withIdentifier: "HeightSelectionPopUpVCId") as! HeightSelectionPopUpVC
+        let storyBoard = UIStoryboard.init(name: "Main", bundle: nil)
+        let popUpVC = storyBoard.instantiateViewController(withIdentifier: "HeightPickerPopUpId") as! HeightPickerPopUp
         popUpVC.suggistionPopUpDelegate = self as! HeightSelectionPopUpVCDelegate
         popUpVC.heightValueArray = dropDownData
         
@@ -188,7 +191,7 @@ class BabyHeightPredictorForm: UIViewController,UITableViewDelegate,UITableViewD
         popUpViewController.navigationBarHidden = true
         popUpViewController.transitionStyle = STPopupTransitionStyle.fade
         DispatchQueue.main.async(execute: {
-            self.popUpViewController.present(in: AppDelegate.topMostController())
+            self.popUpViewController.present(in: self)
         })
     }
     

@@ -92,3 +92,39 @@ class BabyHeightPredictorFormCell2: UITableViewCell,UITextFieldDelegate {
     }
     
 }
+
+
+class HeightSelectionPopUpCells: UITableViewCell {
+    
+    
+    @IBOutlet weak var heightLabel2: UILabel!
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
+    }
+    override func setSelected(_ selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+        
+        // Configure the view for the selected state
+    }
+}
+
+
+class HeightSelectionPopUpCell1: UITableViewCell {
+
+    
+    @IBOutlet weak var heightLabel: UILabel!
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
+    }
+    override func setSelected(_ selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+        
+        // Configure the view for the selected state
+    }
+
+
+}
