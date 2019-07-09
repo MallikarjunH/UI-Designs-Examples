@@ -33,7 +33,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         if(indexPath.section == 0){
             
             let cell = tableView.dequeueReusableCell(withIdentifier: "TableViewCell1Id", for: indexPath) as! TableViewCell1
-            
+            cell.selectionStyle = UITableViewCellSelectionStyle.none;
             
             return cell
         }
@@ -41,7 +41,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         else if(indexPath.section == 1){
             
             let cell = tableView.dequeueReusableCell(withIdentifier: "TableViewCell2Id", for: indexPath) as! TableViewCell2
-            
+            cell.selectionStyle = UITableViewCellSelectionStyle.none;
             cell.descriptionLabel.text = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standardum is simply dummy text of the printing and typesetting industry."
             
             return cell
@@ -49,7 +49,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         else{
             
             let cell = tableView.dequeueReusableCell(withIdentifier: "TableViewCell3Id", for: indexPath) as! TableViewCell3
-            
+            cell.selectionStyle = UITableViewCellSelectionStyle.none;
             return cell
         }
     }
