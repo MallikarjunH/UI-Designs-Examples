@@ -496,10 +496,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hqa-AY-dEk">
-                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="331"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="16"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bitmap_Copy" translatesAutoresizingMaskIntoConstraints="NO" id="Bbz-kk-EBG">
-                                                            <rect key="frame" x="0.0" y="0.0" width="414" height="331"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="20" height="16"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" secondItem="Bbz-kk-EBG" secondAttribute="height" multiplier="414:331" id="Fjf-eC-EDN"/>
                                                             </constraints>
@@ -512,13 +512,13 @@
                                                             </constraints>
                                                         </imageView>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangle-2" translatesAutoresizingMaskIntoConstraints="NO" id="YLZ-fk-eak">
-                                                            <rect key="frame" x="0.0" y="315" width="414" height="16"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="414" height="16"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="414" id="cIG-Fz-dff"/>
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1st Month" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0G7-jB-ovM">
-                                                            <rect key="frame" x="30" y="272" width="133" height="30"/>
+                                                            <rect key="frame" x="30" y="-43" width="133" height="30"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="133" id="3Lk-0O-QdF"/>
                                                                 <constraint firstAttribute="height" constant="30" id="pk4-IY-7lr"/>
@@ -528,7 +528,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mWJ-OU-QGu">
-                                                            <rect key="frame" x="331" y="249" width="58" height="58"/>
+                                                            <rect key="frame" x="331" y="-65.666666666666686" width="58" height="58"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="58" id="ToM-4g-yaD"/>
                                                                 <constraint firstAttribute="width" constant="58" id="pOA-Cg-eau"/>
