@@ -23,6 +23,8 @@ class MonthDetailsVC: UIViewController, UITableViewDataSource, UITableViewDelega
         
         monthTitleLabelOnNavigationBar.text = GlobalVariables.sharedManager.babyMonth
 
+        //tableViewcell
+        mainTableView.register(UINib(nibName: "DetailsXib", bundle: nil), forCellReuseIdentifier: "DetailedInfoCellId")
         // Do any additional setup after loading the view.
     }
     
@@ -57,9 +59,8 @@ class MonthDetailsVC: UIViewController, UITableViewDataSource, UITableViewDelega
         }
         else{
             
-            let cell = tableView.dequeueReusableCell(withIdentifier: "MonthDetailsCell2Id", for: indexPath) as! MonthDetailsCell2
+            let cell = tableView.dequeueReusableCell(withIdentifier: "DetailedInfoCellId", for: indexPath) as! DetailedInfoCell
             
-            cell.descriptionLabel.text = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
             return cell
             
         }

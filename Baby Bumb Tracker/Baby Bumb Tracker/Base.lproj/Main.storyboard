@@ -569,7 +569,7 @@
                                             <outlet property="monthLabel" destination="0G7-jB-ovM" id="uqL-er-AnM"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MonthDetailsCell2Id" rowHeight="120" id="daw-LY-7ur" customClass="MonthDetailsCell2" customModule="Baby_Bumb_Tracker" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="DetailedInfoCellId" rowHeight="120" id="daw-LY-7ur" customClass="DetailedInfoCell" customModule="Baby_Bumb_Tracker" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="360" width="414" height="120"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="daw-LY-7ur" id="2HT-64-ZWR">

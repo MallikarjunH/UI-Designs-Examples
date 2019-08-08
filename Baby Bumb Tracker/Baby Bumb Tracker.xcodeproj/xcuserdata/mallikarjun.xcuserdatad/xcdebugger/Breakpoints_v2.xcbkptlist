@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Baby Bumb Tracker/DetailsViewController/CustomCellForDetailsInfo/DetailedInfoCell.swift"
+            timestampString = "586940533.836153"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "DetailedInfoCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Baby_Bumb_Tracker.DetailedInfoCell.title6SubTitle2Description.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Baby Bumb Tracker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mallikarjun/Desktop/My%20Test%20Programs/MyGitHub/Forms-UI/Baby%20Bumb%20Tracker/Baby%20Bumb%20Tracker/DetailsViewController/CustomCellForDetailsInfo/DetailedInfoCell.swift"
+                  timestampString = "586940536.1525919"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Baby_Bumb_Tracker.DetailedInfoCell.title6SubTitle2Description.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Baby Bumb Tracker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mallikarjun/Desktop/My%20Test%20Programs/MyGitHub/Forms-UI/Baby%20Bumb%20Tracker/Baby%20Bumb%20Tracker/DetailsViewController/CustomCellForDetailsInfo/DetailedInfoCell.swift"
+                  timestampString = "586940536.156062"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Baby_Bumb_Tracker.DetailedInfoCell.title6SubTitle2Description.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Baby Bumb Tracker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mallikarjun/Desktop/My%20Test%20Programs/MyGitHub/Forms-UI/Baby%20Bumb%20Tracker/Baby%20Bumb%20Tracker/DetailsViewController/CustomCellForDetailsInfo/DetailedInfoCell.swift"
+                  timestampString = "586940536.157349"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Baby_Bumb_Tracker.DetailedInfoCell.title6SubTitle2Description.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Baby Bumb Tracker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mallikarjun/Desktop/My%20Test%20Programs/MyGitHub/Forms-UI/Baby%20Bumb%20Tracker/Baby%20Bumb%20Tracker/DetailsViewController/CustomCellForDetailsInfo/DetailedInfoCell.swift"
+                  timestampString = "586940536.158572"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Baby_Bumb_Tracker.DetailedInfoCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; Baby_Bumb_Tracker.DetailedInfoCell"
+                  moduleName = "Baby Bumb Tracker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mallikarjun/Desktop/My%20Test%20Programs/MyGitHub/Forms-UI/Baby%20Bumb%20Tracker/Baby%20Bumb%20Tracker/DetailsViewController/CustomCellForDetailsInfo/DetailedInfoCell.swift"
+                  timestampString = "586940536.159795"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "1844">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Baby_Bumb_Tracker.DetailedInfoCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Baby_Bumb_Tracker.DetailedInfoCell&gt;"
+                  moduleName = "Baby Bumb Tracker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mallikarjun/Desktop/My%20Test%20Programs/MyGitHub/Forms-UI/Baby%20Bumb%20Tracker/Baby%20Bumb%20Tracker/DetailsViewController/CustomCellForDetailsInfo/DetailedInfoCell.swift"
+                  timestampString = "586940536.1610399"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "1788">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

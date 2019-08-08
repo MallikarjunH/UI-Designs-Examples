@@ -12,6 +12,8 @@
 		06D145BE22CDAC6800E00D0F /* MonthDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D145BD22CDAC6800E00D0F /* MonthDetailsVC.swift */; };
 		06D145C222CDB9B700E00D0F /* MonthDetailsCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D145C122CDB9B700E00D0F /* MonthDetailsCells.swift */; };
 		06D9E4D822FBD656007FE948 /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D9E4D722FBD656007FE948 /* GlobalVariables.swift */; };
+		06D9E4DB22FBDB5F007FE948 /* DetailedInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D9E4DA22FBDB5F007FE948 /* DetailedInfoCell.swift */; };
+		06D9E4DD22FBDB7A007FE948 /* DetailsXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06D9E4DC22FBDB7A007FE948 /* DetailsXib.xib */; };
 		06DE6CD922CCA5BA00E81F98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DE6CD822CCA5BA00E81F98 /* AppDelegate.swift */; };
 		06DE6CDE22CCA5BA00E81F98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06DE6CDC22CCA5BA00E81F98 /* Main.storyboard */; };
 		06DE6CE022CCA5C600E81F98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06DE6CDF22CCA5C600E81F98 /* Assets.xcassets */; };
@@ -26,6 +28,8 @@
 		06D145BD22CDAC6800E00D0F /* MonthDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthDetailsVC.swift; sourceTree = "<group>"; };
 		06D145C122CDB9B700E00D0F /* MonthDetailsCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthDetailsCells.swift; sourceTree = "<group>"; };
 		06D9E4D722FBD656007FE948 /* GlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
+		06D9E4DA22FBDB5F007FE948 /* DetailedInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedInfoCell.swift; sourceTree = "<group>"; };
+		06D9E4DC22FBDB7A007FE948 /* DetailsXib.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsXib.xib; sourceTree = "<group>"; };
 		06DE6CD522CCA5BA00E81F98 /* Baby Bumb Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Baby Bumb Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06DE6CD822CCA5BA00E81F98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06DE6CDD22CCA5BA00E81F98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -70,8 +74,18 @@
 			children = (
 				06D145BD22CDAC6800E00D0F /* MonthDetailsVC.swift */,
 				06D145C122CDB9B700E00D0F /* MonthDetailsCells.swift */,
+				06D9E4D922FBDB2A007FE948 /* CustomCellForDetailsInfo */,
 			);
 			path = DetailsViewController;
+			sourceTree = "<group>";
+		};
+		06D9E4D922FBDB2A007FE948 /* CustomCellForDetailsInfo */ = {
+			isa = PBXGroup;
+			children = (
+				06D9E4DA22FBDB5F007FE948 /* DetailedInfoCell.swift */,
+				06D9E4DC22FBDB7A007FE948 /* DetailsXib.xib */,
+			);
+			path = CustomCellForDetailsInfo;
 			sourceTree = "<group>";
 		};
 		06DE6CCC22CCA5B900E81F98 = {
@@ -164,6 +178,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06D9E4DD22FBDB7A007FE948 /* DetailsXib.xib in Resources */,
 				06DE6CE322CCA5C600E81F98 /* LaunchScreen.storyboard in Resources */,
 				06DE6CE022CCA5C600E81F98 /* Assets.xcassets in Resources */,
 				06DE6CDE22CCA5BA00E81F98 /* Main.storyboard in Resources */,
@@ -177,6 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06D9E4DB22FBDB5F007FE948 /* DetailedInfoCell.swift in Sources */,
 				06DE6CED22CCB74100E81F98 /* BabyBumbAllMonthsVC.swift in Sources */,
 				06D145B722CDA85F00E00D0F /* ViewController2.swift in Sources */,
 				06D9E4D822FBD656007FE948 /* GlobalVariables.swift in Sources */,
