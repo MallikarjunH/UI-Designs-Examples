@@ -14,10 +14,14 @@ class MonthDetailsVC: UIViewController, UITableViewDataSource, UITableViewDelega
    
     @IBOutlet weak var mainTableView: UITableView!
   
+    @IBOutlet weak var monthTitleLabelOnNavigationBar: UILabel!
+ 
     var selectedImage:UIImage? = nil
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        monthTitleLabelOnNavigationBar.text = GlobalVariables.sharedManager.babyMonth
 
         // Do any additional setup after loading the view.
     }
@@ -38,6 +42,7 @@ class MonthDetailsVC: UIViewController, UITableViewDataSource, UITableViewDelega
             
             let cell = tableView.dequeueReusableCell(withIdentifier: "MonthDetailsCell1Id", for: indexPath) as! MonthDetailsCell1
             
+            cell.monthLabel.text = GlobalVariables.sharedManager.babyMonth
             cell.demoImageView.isHidden = true
             
             if selectedImage != nil{

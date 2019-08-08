@@ -37,18 +37,12 @@ class BabyBumbAllMonthsVC: UIViewController,UICollectionViewDelegate, UICollecti
 
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         
+        print("clicked")
        //move to next VC
-        
-    /*    let storyBoard = UIStoryboard(name: "HealthTools", bundle: nil)
-        let bodyFatCalculatorVC = storyBoard.instantiateViewController(withIdentifier: "BodyFatCalculatorFormId") as? BodyFatCalculatorForm
-        //  self.navigationController?.pushViewController(bodyFatCalculatorVC!, animated: true)
-        
-        if (navigationController?.topViewController is BodyFatCalculatorForm) {
-            return
-        } else {
-            navigationController?.pushViewController(bodyFatCalculatorVC!, animated: true)
-        } */
-            
+       let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+       let detailsVC = storyBoard.instantiateViewController(withIdentifier: "MonthDetailsVCId") as! MonthDetailsVC
+        GlobalVariables.sharedManager.babyMonth = monthArray[indexPath.item]
+        self.navigationController?.pushViewController(detailsVC, animated: true)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {

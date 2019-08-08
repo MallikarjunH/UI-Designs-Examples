@@ -645,6 +645,7 @@
                     </view>
                     <connections>
                         <outlet property="mainTableView" destination="56y-Iz-IRB" id="Dcc-yS-cfc"/>
+                        <outlet property="monthTitleLabelOnNavigationBar" destination="CGS-mr-ac7" id="Ly7-NK-MUB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YHf-nl-hWJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
