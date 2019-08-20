@@ -19,8 +19,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-       // webViewInstance.uiDelegate = (self as! WKUIDelegate)
-        
         loadBlogs()
     }
 
@@ -29,7 +27,18 @@ class ViewController: UIViewController {
         let url = URL (string: "https://vidalhealth.com/blog/")
         let myRequest = URLRequest(url: url!)
         webViewInstance.load(myRequest)
+    
     }
 
+
 }
+
+
+
+
+
+
+
+
+
 

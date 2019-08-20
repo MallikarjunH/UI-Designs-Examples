@@ -26,12 +26,22 @@
                                     <wkPreferences key="preferences"/>
                                 </wkWebViewConfiguration>
                             </wkWebView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6eq-te-Jpc">
+                                <rect key="frame" x="0.0" y="64" width="54" height="48"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="PTW-9S-7vk"/>
+                                    <constraint firstAttribute="width" constant="54" id="ifK-zZ-zDD"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Bep-Iw-Qp5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="3jF-it-bOU"/>
                             <constraint firstItem="Bep-Iw-Qp5" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="DQy-57-QMc"/>
                             <constraint firstItem="Bep-Iw-Qp5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="WPc-2b-Zsa"/>
+                            <constraint firstItem="6eq-te-Jpc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Ykp-Wd-QJ3"/>
+                            <constraint firstItem="6eq-te-Jpc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="p9R-Ev-ixF"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Bep-Iw-Qp5" secondAttribute="trailing" id="uqC-mZ-kr7"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
