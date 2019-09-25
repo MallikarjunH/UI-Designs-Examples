@@ -1,3 +1,3 @@
 
-Examples of UI Designs
+Examples of UI Designs.
 
