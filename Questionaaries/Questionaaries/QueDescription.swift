@@ -27,9 +27,9 @@ class QueDescription: UIViewController, UITextFieldDelegate {
     //MARK: Save button clicked
     @IBAction func saveButtonClicked(_ sender: Any) {
    
-        let dataAnsDict:[String:String] = ["medication_name":nameOfMedicationTextField.text!, "medication_description":coureseDecriptionTextField.text!,"medication_description":courseDurationTextField.text!]
+        let dataAnsDict:[String:String] = ["medication_name":nameOfMedicationTextField.text ?? "NA", "medication_description":coureseDecriptionTextField.text ?? "NA","medication_duration":courseDurationTextField.text ?? "NA"]
         
-        
+        print("Details are: \(dataAnsDict)")
     }
     
     //MARK: TextField Delegate method
