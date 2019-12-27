@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="oGf-hf-CBu">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -104,7 +103,7 @@
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="138.61607142857142"/>
         </scene>
-        <!--Test-->
+        <!--Description-->
         <scene sceneID="a2r-ne-OMf">
             <objects>
                 <viewController storyboardIdentifier="QueDescription" id="QM3-vh-AcG" customClass="QueDescription" customModule="Questionaaries" customModuleProvider="target" sceneMemberID="viewController">
@@ -112,44 +111,92 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name of the medication" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TH8-Xw-Ygw">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name of the medication" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TH8-Xw-Ygw">
                                 <rect key="frame" x="20" y="108" width="347" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="abd-eB-22a"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JSl-02-Ewu">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JSl-02-Ewu">
                                 <rect key="frame" x="20" y="138" width="347" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="Anr-ls-9Ia"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <outlet property="delegate" destination="QM3-vh-AcG" id="rR8-OT-X1o"/>
                                 </connections>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Describe the course of the medication" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9xO-Mr-TxC">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Describe the course of the medication" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9xO-Mr-TxC">
                                 <rect key="frame" x="22" y="188" width="347" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="Blw-Gt-0Ja"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="k5A-lG-yib">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="k5A-lG-yib">
                                 <rect key="frame" x="22" y="218" width="347" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="1VM-6a-VjS"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <outlet property="delegate" destination="QM3-vh-AcG" id="bCo-aC-fIy"/>
                                 </connections>
                             </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qw1-KS-WiS">
+                                <rect key="frame" x="22" y="313" width="347" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="EiL-as-Luq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="QM3-vh-AcG" id="Nb9-Zq-Qzq"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Course Duration" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fLB-Dj-wka">
+                                <rect key="frame" x="20" y="276" width="347" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="xHo-50-iPx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="XEQ-Kx-Qsf" firstAttribute="trailing" secondItem="JSl-02-Ewu" secondAttribute="trailing" constant="47" id="3iv-70-UeD"/>
+                            <constraint firstItem="JSl-02-Ewu" firstAttribute="leading" secondItem="XEQ-Kx-Qsf" secondAttribute="leading" constant="20" id="96Y-I0-KIt"/>
+                            <constraint firstItem="qw1-KS-WiS" firstAttribute="leading" secondItem="XEQ-Kx-Qsf" secondAttribute="leading" constant="22" id="CH2-YJ-Ow8"/>
+                            <constraint firstItem="JSl-02-Ewu" firstAttribute="top" secondItem="TH8-Xw-Ygw" secondAttribute="bottom" constant="8" id="HyS-8a-4oc"/>
+                            <constraint firstItem="fLB-Dj-wka" firstAttribute="leading" secondItem="XEQ-Kx-Qsf" secondAttribute="leading" constant="20" id="Nta-8g-CU3"/>
+                            <constraint firstItem="qw1-KS-WiS" firstAttribute="top" secondItem="fLB-Dj-wka" secondAttribute="bottom" constant="15" id="PPN-wH-Qys"/>
+                            <constraint firstItem="TH8-Xw-Ygw" firstAttribute="leading" secondItem="XEQ-Kx-Qsf" secondAttribute="leading" constant="20" id="Puz-ey-KnH"/>
+                            <constraint firstItem="TH8-Xw-Ygw" firstAttribute="top" secondItem="XEQ-Kx-Qsf" secondAttribute="top" constant="20" id="QfM-qJ-07I"/>
+                            <constraint firstItem="XEQ-Kx-Qsf" firstAttribute="trailing" secondItem="qw1-KS-WiS" secondAttribute="trailing" constant="45" id="RSR-ap-hoR"/>
+                            <constraint firstItem="fLB-Dj-wka" firstAttribute="top" secondItem="k5A-lG-yib" secondAttribute="bottom" constant="24" id="Tfe-U5-dpN"/>
+                            <constraint firstItem="XEQ-Kx-Qsf" firstAttribute="trailing" secondItem="9xO-Mr-TxC" secondAttribute="trailing" constant="45" id="ZS4-68-JjN"/>
+                            <constraint firstItem="9xO-Mr-TxC" firstAttribute="leading" secondItem="XEQ-Kx-Qsf" secondAttribute="leading" constant="22" id="aa6-rO-s6w"/>
+                            <constraint firstItem="XEQ-Kx-Qsf" firstAttribute="trailing" secondItem="TH8-Xw-Ygw" secondAttribute="trailing" constant="47" id="lXn-4m-tIk"/>
+                            <constraint firstItem="k5A-lG-yib" firstAttribute="leading" secondItem="XEQ-Kx-Qsf" secondAttribute="leading" constant="22" id="prn-jB-sAe"/>
+                            <constraint firstItem="k5A-lG-yib" firstAttribute="top" secondItem="9xO-Mr-TxC" secondAttribute="bottom" constant="8" id="rjB-de-Ekp"/>
+                            <constraint firstItem="XEQ-Kx-Qsf" firstAttribute="trailing" secondItem="k5A-lG-yib" secondAttribute="trailing" constant="45" id="sls-RJ-oIA"/>
+                            <constraint firstItem="9xO-Mr-TxC" firstAttribute="top" secondItem="JSl-02-Ewu" secondAttribute="bottom" constant="16" id="x2f-w3-bPV"/>
+                            <constraint firstItem="XEQ-Kx-Qsf" firstAttribute="trailing" secondItem="fLB-Dj-wka" secondAttribute="trailing" constant="47" id="zO6-CT-jGV"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="XEQ-Kx-Qsf"/>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="Test" id="NJe-s0-bkB">
+                    <navigationItem key="navigationItem" title="Description" id="NJe-s0-bkB">
                         <barButtonItem key="rightBarButtonItem" title="Save" id="hBY-OQ-oST"/>
                     </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
