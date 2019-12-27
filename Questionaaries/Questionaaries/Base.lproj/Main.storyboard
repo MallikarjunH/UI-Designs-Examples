@@ -197,10 +197,19 @@
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Description" id="NJe-s0-bkB">
-                        <barButtonItem key="rightBarButtonItem" title="Save" id="hBY-OQ-oST"/>
+                        <barButtonItem key="rightBarButtonItem" title="Save" id="hBY-OQ-oST">
+                            <connections>
+                                <action selector="saveButtonClicked:" destination="QM3-vh-AcG" id="MFS-Lw-4zH"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="coureseDecriptionTextField" destination="k5A-lG-yib" id="FVN-KN-1Yv"/>
+                        <outlet property="courseDurationTextField" destination="qw1-KS-WiS" id="h1W-Dj-5c4"/>
+                        <outlet property="nameOfMedicationTextField" destination="JSl-02-Ewu" id="Wfk-mv-ywy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZEh-bB-btN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
