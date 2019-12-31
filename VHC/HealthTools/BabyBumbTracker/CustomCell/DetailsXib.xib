@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="BabyBumbTrackerDetailsCell2" customModule="VidalHealth" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="1320"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="left" horizontalHuggingPriority="251" text="Title 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AQY-II-Yzn">
+                    <rect key="frame" x="20" y="57" width="374" height="50.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="374" id="Ypq-Nx-eay"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pr3-ao-pdx">
+                    <rect key="frame" x="20" y="229.5" width="374" height="26"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="26" id="KRy-NQ-w8r"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title 3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HRu-pI-awm">
+                    <rect key="frame" x="20" y="459.5" width="374" height="26"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="26" id="iNk-v9-bUq"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title 4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Il-sj-DIc">
+                    <rect key="frame" x="20" y="799" width="374" height="26"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="26" id="Mde-a7-ZJE"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title 5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="83T-l4-SGi">
+                    <rect key="frame" x="20" y="865" width="374" height="26"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="26" id="LJd-XP-DzN"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title 6" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CB4-GP-apk">
+                    <rect key="frame" x="20" y="964" width="374" height="26"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="26" id="3pR-ta-YTM"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title3SubTitle1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Q3-FO-lc9">
+                    <rect key="frame" x="25" y="488.5" width="369" height="26"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="26" id="GbQ-NC-LZ9"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title3SubTitle2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3XW-0v-Qbe">
+                    <rect key="frame" x="25" y="601" width="369" height="26"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="26" id="EKk-bu-a0K"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title3SubTitle3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yjw-vC-rUG">
+                    <rect key="frame" x="25" y="700" width="369" height="26"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="26" id="EWt-4i-bnP"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9s6-dM-bUQ">
+                    <rect key="frame" x="20" y="109.5" width="374" height="115"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="374" id="vWu-XQ-m7T"/>
+                    </constraints>
+                    <string key="text">Though still tiny, your baby has already started developing all kinds of features – even eyebrows and eyelashes. The foetus may soon start to grow a crop of hair on his head. The body of your little one is covered with a waxy coating called vernix, and it has a fine hair called lanugo all over the body. Baby might have already learned to suck, so it should be sucking its thumb.</string>
+                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CwR-cU-Z0r">
+                    <rect key="frame" x="20" y="257.5" width="374" height="197"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="374" id="xCg-py-QcG"/>
+                    </constraints>
+                    <string key="text">This month could be quite exciting as you may sense your baby moving for the first time. The sensation could be like bubbles popping inside your tummy or like butterflies fluttering. So, pay attention to your body and enjoy the feeling. It could take 18-20 weeks to experience the movement if it is your first pregnancy. You may notice that people are curious to know if you are pregnant – it's because your baby bump is a little more obvious by now. You may also notice that the dark line is becoming more obvious. Don’t worry, it is because of the hormonal changes your body is experiencing now. It will fade away by a few months after delivery.</string>
+                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QrV-s3-Mzo">
+                    <rect key="frame" x="25" y="516.5" width="369" height="82.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="369" id="OdX-nO-Tjh"/>
+                    </constraints>
+                    <string key="text">It could be a little difficult to put on pants and pyjamas because of the growing tummy. It’s time to start shopping for comfortable maternity wear that gives your growing body plenty of room to move and breathe and buy good maternity bras to support your growing breasts</string>
+                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ceq-lJ-E9R">
+                    <rect key="frame" x="25" y="629" width="369" height="66"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="369" id="pXO-Pm-ssx"/>
+                    </constraints>
+                    <string key="text">You may have intense hunger pangs by this time. There are chances that you end up in binge eating. So be prepared for it with healthy snacks, fruit bowls or salads. Follow your doctor’s diet recommendations.</string>
+                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q3S-QT-M4u">
+                    <rect key="frame" x="25" y="728" width="369" height="66"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="369" id="Hhj-JU-Rg2"/>
+                    </constraints>
+                    <string key="text">You may have intense hunger pangs by this time. There are chances that you end up in binge eating. So be prepared for it with healthy snacks, fruit bowls or salads. Follow your doctor’s diet recommendations.</string>
+                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ad2-Mx-XcM">
+                    <rect key="frame" x="25" y="1150.5" width="374" height="66"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="374" id="Glh-Wd-diL"/>
+                    </constraints>
+                    <string key="text">You may have intense hunger pangs by this time. There are chances that you end up in binge eating. So be prepared for it with healthy snacks, fruit bowls or salads. Follow your doctor’s diet recommendations.</string>
+                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SdQ-ec-bd1">
+                    <rect key="frame" x="25" y="1021" width="374" height="98.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="374" id="r1n-cC-ZRl"/>
+                    </constraints>
+                    <string key="text">You might have noticed the ‘pregnancy glow’ on your face. Your belly continues to grow, and this might cause your belly button to poke out. There could be some changes in the texture and growth of your nails as well. First-time mothers might be experiencing the movements for the first time around this month. </string>
+                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Take your nutritionist’s advice and follow a nutritious and healthy pregnancy diet" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s8W-dV-YyD">
+                    <rect key="frame" x="20" y="827" width="369" height="33"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="369" id="fmQ-se-FyP"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GBX-Bg-yGe">
+                    <rect key="frame" x="20" y="893" width="369" height="66"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="369" id="jeH-jM-kU2"/>
+                    </constraints>
+                    <string key="text">You might be on an emotional roller-coaster. This is due to the hormonal changes and is very natural. Speak to your dear ones or seek out a support group to manage emotional surges. </string>
+                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title6SubTitle1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Smn-t4-A5D">
+                    <rect key="frame" x="25" y="993" width="369" height="26"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="26" id="QXv-n7-8DF"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title6SubTitle2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a8E-7z-5pb">
+                    <rect key="frame" x="25" y="1122.5" width="374" height="26"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="26" id="VsX-fG-ucH"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title6SubTitle3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eBc-JM-bNF">
+                    <rect key="frame" x="25" y="1219.5" width="369" height="26"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="26" id="aAT-94-9bf"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vcs-To-Jka">
+                    <rect key="frame" x="25" y="1247.5" width="369" height="49.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="369" id="Esb-hu-PoA"/>
+                    </constraints>
+                    <string key="text"> Keep all of your prenatal appointments to make sure you’re staying healthy and progressing well. Often at the first appointment, you will be able to hear the fetal heartbeat.</string>
+                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="83T-l4-SGi" firstAttribute="top" secondItem="s8W-dV-YyD" secondAttribute="bottom" constant="5" id="0Vx-Q4-eEV"/>
+                <constraint firstItem="9s6-dM-bUQ" firstAttribute="top" secondItem="AQY-II-Yzn" secondAttribute="bottom" constant="2" id="0de-lQ-8Wc"/>
+                <constraint firstItem="HRu-pI-awm" firstAttribute="top" secondItem="CwR-cU-Z0r" secondAttribute="bottom" constant="5" id="0oc-IV-QMt"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="3Q3-FO-lc9" secondAttribute="trailing" constant="20" id="1q5-GB-RFI"/>
+                <constraint firstItem="SdQ-ec-bd1" firstAttribute="top" secondItem="Smn-t4-A5D" secondAttribute="bottom" constant="2" id="2Zu-lh-C24"/>
+                <constraint firstItem="9s6-dM-bUQ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="35Z-uG-QZG"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="a8E-7z-5pb" secondAttribute="trailing" constant="15" id="4Dp-tE-enq"/>
+                <constraint firstItem="SdQ-ec-bd1" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="25" id="6Ct-QI-CI8"/>
+                <constraint firstItem="Pr3-ao-pdx" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="6kq-1T-yoy"/>
+                <constraint firstItem="s8W-dV-YyD" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="6tu-zm-LYQ"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="CwR-cU-Z0r" secondAttribute="trailing" constant="20" id="7Ss-cv-Gtc"/>
+                <constraint firstItem="CwR-cU-Z0r" firstAttribute="top" secondItem="Pr3-ao-pdx" secondAttribute="bottom" constant="2" id="8Nj-Fo-5ue"/>
+                <constraint firstItem="eBc-JM-bNF" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="25" id="9ds-kY-o5l"/>
+                <constraint firstItem="Ceq-lJ-E9R" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="25" id="BDG-iP-35u"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="HRu-pI-awm" secondAttribute="trailing" constant="20" id="CX0-1n-Z5a"/>
+                <constraint firstItem="vcs-To-Jka" firstAttribute="top" secondItem="eBc-JM-bNF" secondAttribute="bottom" constant="2" id="Ccl-XA-gs5"/>
+                <constraint firstItem="3Q3-FO-lc9" firstAttribute="top" secondItem="HRu-pI-awm" secondAttribute="bottom" constant="3" id="F5a-uu-MSq"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="s8W-dV-YyD" secondAttribute="trailing" constant="25" id="F8Z-CJ-L5n"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="AQY-II-Yzn" secondAttribute="trailing" constant="20" id="FLu-qV-qDa"/>
+                <constraint firstItem="AQY-II-Yzn" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="GTQ-7h-of5"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="GBX-Bg-yGe" secondAttribute="trailing" constant="25" id="GV7-1h-Ljt"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="q3S-QT-M4u" secondAttribute="trailing" constant="20" id="GmR-O6-Yl3"/>
+                <constraint firstItem="s8W-dV-YyD" firstAttribute="top" secondItem="9Il-sj-DIc" secondAttribute="bottom" constant="2" id="HAf-dX-cD4"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Smn-t4-A5D" secondAttribute="trailing" constant="20" id="IFb-g4-XaK"/>
+                <constraint firstAttribute="bottom" secondItem="vcs-To-Jka" secondAttribute="bottom" constant="23" id="IIp-Rc-xH6"/>
+                <constraint firstItem="q3S-QT-M4u" firstAttribute="top" secondItem="Yjw-vC-rUG" secondAttribute="bottom" constant="2" id="Ik4-MX-BTX"/>
+                <constraint firstItem="Yjw-vC-rUG" firstAttribute="top" secondItem="Ceq-lJ-E9R" secondAttribute="bottom" constant="5" id="K10-cc-XUS"/>
+                <constraint firstItem="eBc-JM-bNF" firstAttribute="top" secondItem="Ad2-Mx-XcM" secondAttribute="bottom" constant="3" id="KzR-Zp-Ikg"/>
+                <constraint firstItem="GBX-Bg-yGe" firstAttribute="top" secondItem="83T-l4-SGi" secondAttribute="bottom" constant="2" id="Lhh-5a-b8i"/>
+                <constraint firstItem="HRu-pI-awm" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="MSL-O4-y8W"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="9Il-sj-DIc" secondAttribute="trailing" constant="20" id="NIN-gP-cPI"/>
+                <constraint firstItem="Smn-t4-A5D" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="25" id="PDC-5L-jG8"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Ad2-Mx-XcM" secondAttribute="trailing" constant="15" id="QPu-cc-5EX"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="eBc-JM-bNF" secondAttribute="trailing" constant="20" id="S8A-Nm-xoq"/>
+                <constraint firstItem="CB4-GP-apk" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="T9f-vI-EvH"/>
+                <constraint firstItem="QrV-s3-Mzo" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="25" id="Tt8-9v-PGX"/>
+                <constraint firstItem="Smn-t4-A5D" firstAttribute="top" secondItem="CB4-GP-apk" secondAttribute="bottom" constant="3" id="VRF-Xk-oEd"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="CB4-GP-apk" secondAttribute="trailing" constant="20" id="X8l-Vb-r21"/>
+                <constraint firstItem="AQY-II-Yzn" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="13" id="Zfm-cM-A41"/>
+                <constraint firstItem="Pr3-ao-pdx" firstAttribute="top" secondItem="9s6-dM-bUQ" secondAttribute="bottom" constant="5" id="ZlX-9f-cpt"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="83T-l4-SGi" secondAttribute="trailing" constant="20" id="aN6-ON-D7L"/>
+                <constraint firstItem="Yjw-vC-rUG" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="25" id="aOS-wM-vkd"/>
+                <constraint firstItem="a8E-7z-5pb" firstAttribute="top" secondItem="SdQ-ec-bd1" secondAttribute="bottom" constant="3" id="aiN-9j-Vbi"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Pr3-ao-pdx" secondAttribute="trailing" constant="20" id="bvn-ju-Fwr"/>
+                <constraint firstItem="GBX-Bg-yGe" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="cAd-q2-WkV"/>
+                <constraint firstItem="Ad2-Mx-XcM" firstAttribute="top" secondItem="a8E-7z-5pb" secondAttribute="bottom" constant="2" id="csx-tf-GkK"/>
+                <constraint firstItem="Ad2-Mx-XcM" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="25" id="d5R-6w-kpC"/>
+                <constraint firstItem="q3S-QT-M4u" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="25" id="ekM-Z7-Ju8"/>
+                <constraint firstItem="9Il-sj-DIc" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="fyE-ch-JPD"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Ceq-lJ-E9R" secondAttribute="trailing" constant="20" id="gxB-Ym-6iq"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="QrV-s3-Mzo" secondAttribute="trailing" constant="20" id="h66-8U-Tp5"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="3XW-0v-Qbe" secondAttribute="trailing" constant="20" id="huK-tZ-Kih"/>
+                <constraint firstItem="vcs-To-Jka" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="25" id="iR5-Bi-64V"/>
+                <constraint firstItem="Ceq-lJ-E9R" firstAttribute="top" secondItem="3XW-0v-Qbe" secondAttribute="bottom" constant="2" id="ic7-mF-EMq"/>
+                <constraint firstItem="QrV-s3-Mzo" firstAttribute="top" secondItem="3Q3-FO-lc9" secondAttribute="bottom" constant="2" id="lJZ-T8-pfW"/>
+                <constraint firstItem="CwR-cU-Z0r" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="mb5-Tg-lne"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="9s6-dM-bUQ" secondAttribute="trailing" constant="20" id="mgC-if-Rnp"/>
+                <constraint firstItem="3XW-0v-Qbe" firstAttribute="top" secondItem="QrV-s3-Mzo" secondAttribute="bottom" constant="2" id="pF6-ON-Jf5"/>
+                <constraint firstItem="CB4-GP-apk" firstAttribute="top" secondItem="GBX-Bg-yGe" secondAttribute="bottom" constant="5" id="pxV-zp-RZu"/>
+                <constraint firstItem="9Il-sj-DIc" firstAttribute="top" secondItem="q3S-QT-M4u" secondAttribute="bottom" constant="5" id="rPv-f7-UY9"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="vcs-To-Jka" secondAttribute="trailing" constant="20" id="rV2-J1-1sK"/>
+                <constraint firstItem="a8E-7z-5pb" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="25" id="sUz-e9-swO"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="SdQ-ec-bd1" secondAttribute="trailing" constant="15" id="tC0-eb-Spw"/>
+                <constraint firstItem="3XW-0v-Qbe" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="25" id="uaT-eH-QzM"/>
+                <constraint firstItem="83T-l4-SGi" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="wUn-pD-c7n"/>
+                <constraint firstItem="3Q3-FO-lc9" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="25" id="z4a-Us-QFa"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Yjw-vC-rUG" secondAttribute="trailing" constant="20" id="zh2-2x-feE"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="title1" destination="AQY-II-Yzn" id="Ega-qL-2tz"/>
+                <outlet property="title1Description" destination="9s6-dM-bUQ" id="Niv-Ka-dtp"/>
+                <outlet property="title2" destination="Pr3-ao-pdx" id="w2t-w1-NLh"/>
+                <outlet property="title2Description" destination="CwR-cU-Z0r" id="Vce-SI-Fg1"/>
+                <outlet property="title3" destination="HRu-pI-awm" id="koo-eF-h5T"/>
+                <outlet property="title3SubTitle1" destination="3Q3-FO-lc9" id="lGY-fK-dFO"/>
+                <outlet property="title3SubTitle1Description" destination="QrV-s3-Mzo" id="bX1-KE-g9L"/>
+                <outlet property="title3SubTitle2" destination="3XW-0v-Qbe" id="U92-1j-2Vy"/>
+                <outlet property="title3SubTitle2Description" destination="Ceq-lJ-E9R" id="5Sb-oU-hxy"/>
+                <outlet property="title3SubTitle3" destination="Yjw-vC-rUG" id="rgX-q9-Qbh"/>
+                <outlet property="title3SubTitle3Description" destination="q3S-QT-M4u" id="7bX-U6-aEZ"/>
+                <outlet property="title4" destination="9Il-sj-DIc" id="WFG-7z-Ab7"/>
+                <outlet property="title4Description" destination="s8W-dV-YyD" id="WSg-t1-Q9P"/>
+                <outlet property="title5" destination="83T-l4-SGi" id="jn7-E0-lEx"/>
+                <outlet property="title5Description" destination="GBX-Bg-yGe" id="Lja-a9-Lpc"/>
+                <outlet property="title6" destination="CB4-GP-apk" id="soi-Ei-bY7"/>
+                <outlet property="title6SubTitle1" destination="Smn-t4-A5D" id="mhh-k0-hhf"/>
+                <outlet property="title6SubTitle1Description" destination="SdQ-ec-bd1" id="Zqf-u8-7h0"/>
+                <outlet property="title6SubTitle2" destination="a8E-7z-5pb" id="Ymh-34-yKa"/>
+                <outlet property="title6SubTitle2Description" destination="Ad2-Mx-XcM" id="bMb-Zq-mEg"/>
+                <outlet property="title6SubTitle3" destination="eBc-JM-bNF" id="zgJ-Ca-noJ"/>
+                <outlet property="title6SubTitle3Description" destination="vcs-To-Jka" id="BEb-nc-ka4"/>
+            </connections>
+            <point key="canvasLocation" x="140.57971014492756" y="118.52678571428571"/>
+        </view>
+    </objects>
+</document>
