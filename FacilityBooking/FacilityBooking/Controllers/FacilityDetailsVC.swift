@@ -16,8 +16,8 @@ class FacilityDetailsVC: UIViewController,UICollectionViewDelegate, UICollection
 
     var tileString:String = ""
     
-    var slotsForClubHouse = ["10 AM - 11 AM", "11 AM - 12 PM","12 PM - 13 PM","13 PM - 14 PM","14 PM - 15 PM","15 PM - 16 PM", "16 PM - 17 PM","17 PM - 18 PM","18 PM - 19 PM","19 PM - 20 PM",]
-    var slotsForTenisCourtHouse = ["10 AM - 11 AM", "11 AM - 12 PM","12 PM - 13 PM","13 PM - 14 PM","14 PM - 15 PM","15 PM - 16 PM", "16 PM - 17 PM","17 PM - 18 PM","18 PM - 19 PM","19 PM - 20 PM"]
+    var slotsForClubHouse = ["10 AM - 11 AM", "11 AM - 12 PM","12 PM - 13 PM","13 PM - 14 PM","14 PM - 15 PM","15 PM - 16 PM", "16 PM - 17 PM","17 PM - 18 PM","18 PM - 19 PM","19 PM - 20 PM","20 PM - 21 PM","21 PM - 22 PM"]
+    var slotsForTenisCourtHouse = ["10 AM - 11 AM", "11 AM - 12 PM","12 PM - 13 PM","13 PM - 14 PM","14 PM - 15 PM","15 PM - 16 PM", "16 PM - 17 PM","17 PM - 18 PM","18 PM - 19 PM","19 PM - 20 PM","20 PM - 21 PM","21 PM - 22 PM"]
     
 
     var selectedSlotString:String? = "0"
@@ -209,9 +209,26 @@ class FacilityDetailsVC: UIViewController,UICollectionViewDelegate, UICollection
     @IBAction func bookSlotButtonClicked(_ sender: Any) {
    
         print("Slot is selected")
-     // AppUtilitiesSwift.showAlert(title: "Success", message: "Slot is selected successfully", vc: self)
+        // AppUtilitiesSwift.showAlert(title: "Success", message: "Slot is selected successfully", vc: self)
+        // self.showAlertWithAction(message: "Slot is selected successfully.")
         
-        self.showAlertWithAction(message: "Slot is selected successfully.")
+        if self.tileString == "Club house"{
+            
+            if (selectedSlotString?.hasPrefix("16"))! || (selectedSlotString?.hasPrefix("17"))! || (selectedSlotString?.hasPrefix("18"))! || (selectedSlotString?.hasPrefix("19"))! || (selectedSlotString?.hasPrefix("20"))! {
+                
+                //Rs.500 per hour
+                 self.showAlertWithAction(message: "Slot is selected successfully. Rs. 500") //single slot selection
+            }
+            else{
+                //Rs. 100 per hour
+                self.showAlertWithAction(message: "Slot is selected successfully. Rs. 100")  //single slot selection
+            }
+        }
+        else{
+            
+            self.showAlertWithAction(message: "Slot is selected successfully. Rs. 50") //single slot selection
+        }
+       
     }
     
     func showAlertWithAction(message:String)

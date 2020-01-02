@@ -19,6 +19,7 @@
 		068BDFBB23BDEFDB009C1C13 /* FacilityDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068BDFBA23BDEFDB009C1C13 /* FacilityDetailsVC.swift */; };
 		068BDFBD23BDF54A009C1C13 /* AppUtilitiesSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068BDFBC23BDF54A009C1C13 /* AppUtilitiesSwift.swift */; };
 		068BDFC323BE0191009C1C13 /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068BDFC223BE0191009C1C13 /* GlobalVariables.swift */; };
+		068BDFC523BE173C009C1C13 /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 068BDFC423BE173C009C1C13 /* logo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		068BDFBA23BDEFDB009C1C13 /* FacilityDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilityDetailsVC.swift; sourceTree = "<group>"; };
 		068BDFBC23BDF54A009C1C13 /* AppUtilitiesSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtilitiesSwift.swift; sourceTree = "<group>"; };
 		068BDFC223BE0191009C1C13 /* GlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
+		068BDFC423BE173C009C1C13 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		068BDFB223BDEEBC009C1C13 /* ImageAssets */ = {
 			isa = PBXGroup;
 			children = (
+				068BDFC423BE173C009C1C13 /* logo.jpg */,
 				068BDFB423BDEEE8009C1C13 /* clubHouse.png */,
 				068BDFB323BDEEE8009C1C13 /* tenis.jpg */,
 			);
@@ -194,6 +197,7 @@
 			files = (
 				068BDFA723BDE9E4009C1C13 /* LaunchScreen.storyboard in Resources */,
 				068BDFB623BDEEE8009C1C13 /* clubHouse.png in Resources */,
+				068BDFC523BE173C009C1C13 /* logo.jpg in Resources */,
 				068BDFA423BDE9E4009C1C13 /* Assets.xcassets in Resources */,
 				068BDFA223BDE9D6009C1C13 /* Main.storyboard in Resources */,
 				068BDFB523BDEEE8009C1C13 /* tenis.jpg in Resources */,
@@ -360,7 +364,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9HVHM5PPH2;
 				INFOPLIST_FILE = FacilityBooking/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -368,7 +372,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = TestExamples.FacilityBooking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -379,7 +383,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9HVHM5PPH2;
 				INFOPLIST_FILE = FacilityBooking/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -387,7 +391,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = TestExamples.FacilityBooking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
