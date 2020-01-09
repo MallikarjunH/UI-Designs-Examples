@@ -19,6 +19,7 @@ class ViewController: UIViewController {
         
         self.manageLabel()
         self.manageTextField()
+        self.manageButton()
     }
 
     //MARK: Function for Creating TextField
@@ -69,6 +70,22 @@ class ViewController: UIViewController {
         self.view.addSubview(myLabel)
     }
      
+    //MARK: Function for creating Button
+    
+    func manageButton(){
+        
+        let myButton:UIButton = UIButton(frame: CGRect(x: 141, y: 430, width: 105, height: 30))
+        myButton.setTitle("Register", for: .normal)
+        myButton.setTitleColor(#colorLiteral(red: 0.05951015346, green: 0.9978423367, blue: 1, alpha: 1), for: .normal)
+        myButton.backgroundColor = #colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1)
+        myButton.addTarget(self, action: #selector(registerButtonClicked), for: .touchUpInside)
+        self.view.addSubview(myButton)
+    }
+    
+    @objc func registerButtonClicked(){
+        
+        print("Clicked on Register Button")
+    }
     
 }
 
