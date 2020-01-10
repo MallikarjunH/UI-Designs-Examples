@@ -11,8 +11,14 @@ import UIKit
 class ShowsListVC: UIViewController,UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout {
 
     @IBOutlet weak var mainCollectionView: UICollectionView!
+
     
-    let itemsArray = ["Cell 1", "Cell 2","Cell 3","Cell 4","Cell 5","Cell 6","Cell 7","Cell 8","Cell 8","Cell 10","Cell 11","Cell 12"]
+    var showsNameArray:[String] = []
+    var showsLanguageArray:[String] = []
+    var showsSummaryArray:[String] = []
+    var showsRatingArray:[Int] = []
+    var showsImageArray:[String] = []
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,26 +51,61 @@ class ShowsListVC: UIViewController,UICollectionViewDataSource,UICollectionViewD
         
                     print("JSON Array: \(jsonArray)")
                     
-                  /*  if jsonArray.count > 0{
-                        
-                        self.idArray = []
-                        self.titleArray = []
-                        
-                        for dictData:Dictionary<String,Any> in jsonArray{
-                            
-                            let idValue:Int = dictData["id"] as? Int ?? 0
-                            let title:String = dictData["title"] as? String ?? "Not Title"
+                   if jsonArray.count > 0{
                     
-                            self.idArray.append(idValue)
-                            self.titleArray.append(title)
+                    self.showsNameArray = []
+                    self.showsLanguageArray = []
+                    self.showsSummaryArray = []
+                    self.showsRatingArray = []
+                    self.showsImageArray = []
+                    
+                    for jsonDataDict:Dictionary<String,Any> in jsonArray{
+                       
+                        if let showDict:Dictionary<String,Any> = jsonDataDict["show"] as? [String:Any] {
+                            
+                            let showName:String = showDict["name"] as? String ?? "No Name"
+                            let showLanguage:String = showDict["language"] as? String ?? "No Language"
+                            let showSummary:String = showDict["summary"] as? String ?? "No Summary Found"
+                            
+                            self.showsNameArray.append(showName)
+                            self.showsLanguageArray.append(showLanguage)
+                            self.showsSummaryArray.append(showSummary)
+                            
+                            if let ratingDict:Dictionary<String,Any> = showDict["rating"] as? [String:Any] {
+                                
+                                let showRating:Int = ratingDict["average"] as? Int ?? 0
+                                self.showsRatingArray.append(showRating)
+                            }
+                            
+                            if let imageDict:Dictionary<String,Any> = showDict["image"] as? [String:Any] {
+                                
+                                let showImageLink:String = imageDict["medium"] as? String ?? ""
+                                self.showsImageArray.append(showImageLink)
+                            } // original
+                            else{
+                                self.showsImageArray.append("")
+                            }
                         }
                         
-                        print("Id Array is: \(self.idArray)")
-                        print("Title Array is: \(self.idArray)")
-                        
-                    }else{
-                        //array is empty
-                    } */
+                    }
+                    
+                    print(self.showsNameArray)
+                    print("Name count: \(self.showsNameArray.count)")
+                    print(self.showsImageArray)
+                    print("Image count: \(self.showsImageArray.count)")
+                    
+                    DispatchQueue.main.async {
+                    
+                        self.mainCollectionView.reloadData()
+                    }
+                    
+                    
+                   }
+                   else{
+                    
+                     //JSON Count is zero
+                    //show message Data Not Found
+                    }
                     
                  } catch let parsingError {
                     print("Error", parsingError)
@@ -75,15 +116,32 @@ class ShowsListVC: UIViewController,UICollectionViewDataSource,UICollectionViewD
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         
-        return itemsArray.count
+        if (self.showsNameArray.count == 0) {
+            self.mainCollectionView.setEmptyMessage("No Data Found")
+        } else {
+             self.mainCollectionView.restore()
+        }
+        return showsNameArray.count
+        
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ShowsListCellId", for: indexPath) as! ShowsListCell
         
-        cell.showNameLabel.text = itemsArray[indexPath.item]
-        cell.showImageView.image = UIImage(named: "78286.jpg")
+        cell.showNameLabel.text = showsNameArray[indexPath.item]
+        
+        if self.showsImageArray[indexPath.item] != ""{
+            AppUtilitiesSwift.getData(from: self.showsImageArray[indexPath.item] as String) { data, response, error in
+                guard let data = data, error == nil else { return }
+                DispatchQueue.main.async() {
+                    cell.showImageView.image = UIImage(data: data)
+                }
+            }
+        }
+        else{
+            cell.showImageView.image = UIImage(named: "imageNotFound.png")
+        }
         
         return cell
     }
@@ -99,15 +157,6 @@ class ShowsListVC: UIViewController,UICollectionViewDataSource,UICollectionViewD
         let size: CGSize = CGSize(width: self.view.frame.width/3, height: 214)
         return size
         
-//        var cellSize: CGSize
-//
-//                let screenRect = UIScreen.main.bounds
-//                let screenWidth = screenRect.size.width
-//
-//                cellSize = CGSize(width: screenWidth / 3.0, height: 214)
-//
-//            return cellSize
-        
     }
    
     
@@ -118,3 +167,4 @@ class ShowsListVC: UIViewController,UICollectionViewDataSource,UICollectionViewD
 
     
 }
+
