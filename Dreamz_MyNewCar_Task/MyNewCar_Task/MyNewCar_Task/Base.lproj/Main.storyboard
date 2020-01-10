@@ -16,53 +16,52 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="tvg-KF-gy5">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="tvg-KF-gy5">
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Pfc-WJ-v3x">
-                                    <size key="itemSize" width="146" height="230"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="1" minimumInteritemSpacing="1" id="Pfc-WJ-v3x">
+                                    <size key="itemSize" width="117" height="214"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <inset key="sectionInset" minX="1" minY="1" maxX="1" maxY="1"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ShowImageCellId" id="vO4-US-CW8" customClass="ShowImageCell" customModule="MyNewCar_Task" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="146" height="230"/>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ShowsListCellId" id="vO4-US-CW8" customClass="ShowsListCell" customModule="MyNewCar_Task" customModuleProvider="target">
+                                        <rect key="frame" x="1" y="1" width="117" height="214"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="HLS-Ii-MmB">
-                                            <rect key="frame" x="0.0" y="0.0" width="146" height="230"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="117" height="214"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="78286.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Opp-JZ-SsS">
-                                                    <rect key="frame" x="9" y="15" width="130" height="159"/>
+                                                    <rect key="frame" x="1" y="1" width="115" height="148"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" secondItem="Opp-JZ-SsS" secondAttribute="height" multiplier="130:159" id="JGE-xZ-ZUn"/>
-                                                        <constraint firstAttribute="height" constant="159" id="Pk3-PP-TFw"/>
-                                                        <constraint firstAttribute="width" constant="130" id="c6g-4c-ahW"/>
+                                                        <constraint firstAttribute="height" constant="148" id="NfZ-j4-JwV"/>
+                                                        <constraint firstAttribute="width" constant="103" id="nHH-Fz-JER"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name of Show" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="63a-K7-PpV">
-                                                    <rect key="frame" x="12" y="181" width="125" height="40"/>
+                                                    <rect key="frame" x="6" y="158" width="103" height="49"/>
                                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="Opp-JZ-SsS" firstAttribute="top" secondItem="HLS-Ii-MmB" secondAttribute="top" constant="15" id="CPo-5l-kpI"/>
-                                                <constraint firstAttribute="bottom" secondItem="63a-K7-PpV" secondAttribute="bottom" constant="9" id="Rpe-YZ-VPf"/>
-                                                <constraint firstAttribute="trailing" secondItem="Opp-JZ-SsS" secondAttribute="trailing" constant="9" id="UtX-v0-CLf"/>
-                                                <constraint firstItem="63a-K7-PpV" firstAttribute="top" secondItem="Opp-JZ-SsS" secondAttribute="bottom" constant="7" id="fZK-4J-SN4"/>
-                                                <constraint firstItem="Opp-JZ-SsS" firstAttribute="leading" secondItem="HLS-Ii-MmB" secondAttribute="leading" constant="9" id="gkn-A4-oJ1"/>
-                                                <constraint firstItem="63a-K7-PpV" firstAttribute="leading" secondItem="HLS-Ii-MmB" secondAttribute="leading" constant="12" id="kuq-OL-R36"/>
-                                                <constraint firstAttribute="trailing" secondItem="63a-K7-PpV" secondAttribute="trailing" constant="9" id="skT-eJ-lTc"/>
+                                                <constraint firstAttribute="trailing" secondItem="63a-K7-PpV" secondAttribute="trailing" constant="8" id="ETS-oi-okv"/>
+                                                <constraint firstAttribute="bottom" secondItem="63a-K7-PpV" secondAttribute="bottom" constant="7" id="GYR-s1-e29"/>
+                                                <constraint firstItem="Opp-JZ-SsS" firstAttribute="top" secondItem="HLS-Ii-MmB" secondAttribute="top" constant="1" id="LXH-EB-KjU"/>
+                                                <constraint firstItem="Opp-JZ-SsS" firstAttribute="leading" secondItem="HLS-Ii-MmB" secondAttribute="leading" constant="1" id="QVJ-UH-5sg"/>
+                                                <constraint firstAttribute="trailing" secondItem="Opp-JZ-SsS" secondAttribute="trailing" constant="1" id="Zw1-8C-dGO"/>
+                                                <constraint firstItem="63a-K7-PpV" firstAttribute="leading" secondItem="HLS-Ii-MmB" secondAttribute="leading" constant="6" id="axg-zd-Cda"/>
+                                                <constraint firstItem="63a-K7-PpV" firstAttribute="top" secondItem="Opp-JZ-SsS" secondAttribute="bottom" constant="9" id="jh1-J5-7Bi"/>
                                             </constraints>
                                         </collectionViewCellContentView>
-                                        <size key="customSize" width="146" height="230"/>
+                                        <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <size key="customSize" width="117" height="214"/>
                                         <connections>
-                                            <outlet property="showImageView" destination="Opp-JZ-SsS" id="NcO-Wu-r9y"/>
-                                            <outlet property="showNameLabel" destination="63a-K7-PpV" id="xui-5p-cQj"/>
+                                            <outlet property="showImageView" destination="Opp-JZ-SsS" id="8hD-o0-EMk"/>
+                                            <outlet property="showNameLabel" destination="63a-K7-PpV" id="q4a-4k-hhM"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -73,6 +72,12 @@
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" red="0.95294117647058818" green="0.95686274509803915" blue="0.97254901960784312" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="tvg-KF-gy5" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="93g-Xm-c5d"/>
+                            <constraint firstItem="tvg-KF-gy5" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="B2X-hL-Adl"/>
+                            <constraint firstItem="tvg-KF-gy5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="DOb-IB-6le"/>
+                            <constraint firstItem="tvg-KF-gy5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="KvS-tO-BGM"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="Ai1-5a-JuD"/>

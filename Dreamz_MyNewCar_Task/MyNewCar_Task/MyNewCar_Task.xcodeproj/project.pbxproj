@@ -17,7 +17,7 @@
 		062AFFC523C73BCE002EA1C6 /* 78286.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 062AFFC423C73BCE002EA1C6 /* 78286.jpg */; };
 		062AFFC723C73CC4002EA1C6 /* ShowsListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062AFFC623C73CC4002EA1C6 /* ShowsListVC.swift */; };
 		06D95A3323C73ED600DAF07E /* ShowsDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D95A3223C73ED600DAF07E /* ShowsDetailsVC.swift */; };
-		06D95A3623C7409500DAF07E /* ShowImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D95A3523C7409500DAF07E /* ShowImageCell.swift */; };
+		06D95A3823C743B200DAF07E /* ShowsListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D95A3723C743B200DAF07E /* ShowsListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +33,7 @@
 		062AFFC423C73BCE002EA1C6 /* 78286.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 78286.jpg; sourceTree = "<group>"; };
 		062AFFC623C73CC4002EA1C6 /* ShowsListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowsListVC.swift; sourceTree = "<group>"; };
 		06D95A3223C73ED600DAF07E /* ShowsDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowsDetailsVC.swift; sourceTree = "<group>"; };
-		06D95A3523C7409500DAF07E /* ShowImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowImageCell.swift; sourceTree = "<group>"; };
+		06D95A3723C743B200DAF07E /* ShowsListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowsListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,7 +141,7 @@
 		06D95A3423C7403600DAF07E /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				06D95A3523C7409500DAF07E /* ShowImageCell.swift */,
+				06D95A3723C743B200DAF07E /* ShowsListCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -221,9 +221,9 @@
 			files = (
 				062AFFAC23C73189002EA1C6 /* ViewController.swift in Sources */,
 				06D95A3323C73ED600DAF07E /* ShowsDetailsVC.swift in Sources */,
+				06D95A3823C743B200DAF07E /* ShowsListCell.swift in Sources */,
 				062AFFC723C73CC4002EA1C6 /* ShowsListVC.swift in Sources */,
 				062AFFA823C73189002EA1C6 /* AppDelegate.swift in Sources */,
-				06D95A3623C7409500DAF07E /* ShowImageCell.swift in Sources */,
 				062AFFAA23C73189002EA1C6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

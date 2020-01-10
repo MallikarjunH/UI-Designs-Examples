@@ -1,5 +1,5 @@
 //
-//  ShowImageCell.swift
+//  ShowsListCell.swift
 //  MyNewCar_Task
 //
 //  Created by mallikarjun on 09/01/20.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ShowImageCell: UICollectionViewCell {
+class ShowsListCell: UICollectionViewCell {
     
     @IBOutlet weak var showImageView: UIImageView!
     @IBOutlet weak var showNameLabel: UILabel!
