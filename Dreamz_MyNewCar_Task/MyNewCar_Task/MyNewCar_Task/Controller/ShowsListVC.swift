@@ -16,7 +16,7 @@ class ShowsListVC: UIViewController,UICollectionViewDataSource,UICollectionViewD
     var showsNameArray:[String] = []
     var showsLanguageArray:[String] = []
     var showsSummaryArray:[String] = []
-    var showsRatingArray:[Int] = []
+    var showsRatingArray:[Double] = []
     var showsImageArray:[String] = []
     
     
@@ -49,7 +49,7 @@ class ShowsListVC: UIViewController,UICollectionViewDataSource,UICollectionViewD
                           return
                     }
         
-                    print("JSON Array: \(jsonArray)")
+                  //  print("JSON Array: \(jsonArray)")
                     
                    if jsonArray.count > 0{
                     
@@ -73,7 +73,7 @@ class ShowsListVC: UIViewController,UICollectionViewDataSource,UICollectionViewD
                             
                             if let ratingDict:Dictionary<String,Any> = showDict["rating"] as? [String:Any] {
                                 
-                                let showRating:Int = ratingDict["average"] as? Int ?? 0
+                                let showRating:Double = ratingDict["average"] as? Double ?? 0.0
                                 self.showsRatingArray.append(showRating)
                             }
                             
@@ -89,11 +89,7 @@ class ShowsListVC: UIViewController,UICollectionViewDataSource,UICollectionViewD
                         
                     }
                     
-                    print(self.showsNameArray)
-                    print("Name count: \(self.showsNameArray.count)")
-                    print(self.showsImageArray)
-                    print("Image count: \(self.showsImageArray.count)")
-                    
+
                     DispatchQueue.main.async {
                     
                         self.mainCollectionView.reloadData()
@@ -148,7 +144,20 @@ class ShowsListVC: UIViewController,UICollectionViewDataSource,UICollectionViewD
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         
-        print(indexPath.item)
+       // print(indexPath.item)
+        
+        let detailsVC = self.storyboard?.instantiateViewController(withIdentifier: "ShowsDetailsVCId") as! ShowsDetailsVC
+        
+        detailsVC.showName = self.showsNameArray[indexPath.item]
+        detailsVC.showImage = self.showsImageArray[indexPath.item]
+        detailsVC.showRating = self.showsRatingArray[indexPath.item]
+        detailsVC.showLanguage = self.showsLanguageArray[indexPath.item]
+        detailsVC.showSummary = self.showsSummaryArray[indexPath.item]
+        
+        self.navigationController?.pushViewController(detailsVC, animated: true)
+        
+    
+        
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
