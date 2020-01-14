@@ -28,6 +28,7 @@ class ShowsDetailsVC: UIViewController {
 
         // Do any additional setup after loading the view.
         self.updateUI()
+        self.title = showName
     }
     
     func updateUI(){
