@@ -11,7 +11,8 @@ import UIKit
 
 class TableViewCell1: UITableViewCell {
     
-
+    @IBOutlet weak var fileNameLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -30,6 +31,8 @@ class TableViewCell1: UITableViewCell {
 class TableViewCell2: UITableViewCell {
     
 
+    @IBOutlet weak var addButton: UIButton!
+   
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

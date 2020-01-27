@@ -44,6 +44,9 @@
                                                 <constraint firstAttribute="trailingMargin" secondItem="hcs-a0-Lrr" secondAttribute="trailing" constant="147" id="tXq-Hg-E0S"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="fileNameLabel" destination="hcs-a0-Lrr" id="dpq-N0-MTT"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TableViewCell2Id" rowHeight="64" id="yRG-bR-5pN" customClass="TableViewCell2" customModule="TableView_Add_Rows" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="93" width="414" height="64"/>
@@ -55,18 +58,23 @@
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZzI-ym-jG5">
                                                     <rect key="frame" x="152" y="17" width="81" height="30"/>
                                                     <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="30" id="NWP-XX-JEu"/>
+                                                        <constraint firstAttribute="width" constant="81" id="dT6-dJ-pDX"/>
+                                                    </constraints>
                                                     <state key="normal" title="Add Files">
                                                         <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
                                                 </button>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="ZzI-ym-jG5" firstAttribute="leading" secondItem="weq-dt-sKS" secondAttribute="leadingMargin" constant="132" id="4F5-wb-78l"/>
-                                                <constraint firstItem="ZzI-ym-jG5" firstAttribute="top" secondItem="weq-dt-sKS" secondAttribute="topMargin" constant="6" id="BgW-35-MFG"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="ZzI-ym-jG5" secondAttribute="bottom" constant="6" id="bEg-uR-d40"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="ZzI-ym-jG5" secondAttribute="trailing" constant="161" id="ef8-bb-8JK"/>
+                                                <constraint firstItem="ZzI-ym-jG5" firstAttribute="top" secondItem="weq-dt-sKS" secondAttribute="topMargin" constant="6" id="6g8-z5-tzr"/>
+                                                <constraint firstItem="ZzI-ym-jG5" firstAttribute="leading" secondItem="weq-dt-sKS" secondAttribute="leadingMargin" constant="132" id="rZS-Qs-Soa"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="addButton" destination="ZzI-ym-jG5" id="fUK-5s-bbH"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>

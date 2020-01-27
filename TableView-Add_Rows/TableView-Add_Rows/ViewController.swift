@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     
-    var dataArray = ["File 1", "File 2"]
+    var dataArray:[String] = ["File 1", "File 2"]
     
     
     @IBOutlet weak var mainTableView: UITableView!
@@ -19,6 +19,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        self.mainTableView!.tableFooterView = UIView()
     }
 
     func numberOfSections(in tableView: UITableView) -> Int
@@ -27,7 +29,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         if dataArray.count > 0
         {
             tableView.separatorStyle = .singleLine
-            numOfSections            = 1
+            numOfSections            = dataArray.count //1
             tableView.backgroundView = nil
         }
         else
@@ -43,11 +45,49 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        <#code#>
+        
+      //  var numOfSections: Int = 0
+        
+        if section == 0 {
+            
+            return dataArray.count
+        }
+            
+        else if section == 1 {
+            
+            return 1
+        }
+        else{
+            
+            return 0
+        }
+    
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
+    
+        if indexPath.section == 0 {
+            
+            let cell = tableView.dequeueReusableCell(withIdentifier: "TableViewCell1Id", for: indexPath) as!  TableViewCell1
+            cell.fileNameLabel.text = self.dataArray[indexPath.row]
+            return cell
+        }
+        else{
+            
+            let cell = tableView.dequeueReusableCell(withIdentifier: "TableViewCell2Id", for: indexPath) as!  TableViewCell2
+            
+            cell.addButton.addTarget(self, action: #selector(selectFileButton(sender:)), for: .touchUpInside)
+            
+            return cell
+            
+        }
+    }
+    
+    
+     @objc func selectFileButton(sender:UIButton){
+        
+        self.dataArray.append("File Data")
+        self.mainTableView.reloadData()
     }
 
 }
