@@ -5,6 +5,13 @@
 //  Created by EOO61 on 01/04/21.
 //
 
+/* //Other Exampples
+https://github.com/aromajoin/material-showcase-ios
+https://github.com/yukiasai/Gecco
+https://github.com/aleksandrshoshiashvili/AwesomeSpotlightView
+*/
+
+
 import UIKit
 import MaterialShowcase
 
