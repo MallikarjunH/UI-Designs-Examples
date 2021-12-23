@@ -23,6 +23,7 @@ class ShowsListVC: UIViewController,UICollectionViewDataSource,UICollectionViewD
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.title = "TV Shows"
         // Do any additional setup after loading the view.
         getAllShowsListAPICall()
     }
