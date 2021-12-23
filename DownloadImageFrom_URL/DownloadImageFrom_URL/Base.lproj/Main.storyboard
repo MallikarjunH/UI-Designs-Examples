@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -19,20 +18,58 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZWp-ow-PC7">
-                                <rect key="frame" x="82" y="114" width="250" height="250"/>
+                                <rect key="frame" x="82" y="231" width="250" height="250"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="250" id="Nic-er-BCX"/>
-                                    <constraint firstAttribute="width" constant="250" id="k4K-8u-oo5"/>
+                                    <constraint firstAttribute="height" constant="250" id="jFm-zO-nmo"/>
+                                    <constraint firstAttribute="width" constant="250" id="rNC-Px-XFP"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="URL:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IzT-B5-4a5">
+                                <rect key="frame" x="37" y="75" width="40" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="aRd-3d-RCJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="https://picsum.photos/200" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8yV-q2-eZB">
+                                <rect key="frame" x="91" y="75" width="313" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="gi9-2s-iJq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="linkColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Tb-nb-18A">
+                                <rect key="frame" x="82" y="146" width="250" height="35"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="0qo-LX-zth"/>
+                                    <constraint firstAttribute="height" constant="35" id="4ob-Ts-0h0"/>
+                                </constraints>
+                                <color key="tintColor" red="0.9450981021" green="0.9450981021" blue="0.9450981021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Download Image From URL"/>
+                                <connections>
+                                    <action selector="downloadImageAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="E15-gc-3wy"/>
+                                </connections>
+                            </button>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="ZWp-ow-PC7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="82" id="KBz-8p-Y45"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZWp-ow-PC7" secondAttribute="trailing" constant="82" id="Kb1-vm-muA"/>
-                            <constraint firstItem="ZWp-ow-PC7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="70" id="toJ-JQ-pki"/>
+                            <constraint firstItem="8yV-q2-eZB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="31" id="8EX-sI-cSD"/>
+                            <constraint firstItem="IzT-B5-4a5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="31" id="B7e-Ip-K5f"/>
+                            <constraint firstItem="2Tb-nb-18A" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Uak-ES-OOw"/>
+                            <constraint firstItem="ZWp-ow-PC7" firstAttribute="top" secondItem="2Tb-nb-18A" secondAttribute="bottom" constant="50" id="V43-8e-oOq"/>
+                            <constraint firstItem="ZWp-ow-PC7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="asI-jF-rde"/>
+                            <constraint firstItem="2Tb-nb-18A" firstAttribute="top" secondItem="8yV-q2-eZB" secondAttribute="bottom" constant="50" id="fg2-mG-REA"/>
+                            <constraint firstItem="IzT-B5-4a5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="37" id="kMs-YV-rra"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8yV-q2-eZB" secondAttribute="trailing" constant="10" id="l0K-Uu-CZc"/>
+                            <constraint firstItem="8yV-q2-eZB" firstAttribute="leading" secondItem="IzT-B5-4a5" secondAttribute="trailing" constant="14" id="wb3-IY-EeW"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="sampleImageVIew" destination="ZWp-ow-PC7" id="P5l-pW-l1f"/>
@@ -43,4 +80,9 @@
             <point key="canvasLocation" x="137.68115942028987" y="138.61607142857142"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>

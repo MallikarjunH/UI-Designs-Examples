@@ -9,16 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var sampleImageVIew: UIImageView!
- 
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
-        let imgURL = NSURL(string: "http://10.1.6.63:8000/media/health_tools_media/bbt/9zpYBkc0Rl/tibor-moskovits-square.jpg")
-         self.downloadImage(from: imgURL! as URL)
+    }
+    
+    @IBAction func downloadImageAction(_ sender: Any) {
+        let imgURL = NSURL(string: "https://picsum.photos/200")
+        self.downloadImage(from: imgURL! as URL)
     }
     
     func downloadImage(from url: URL) {
@@ -28,7 +30,7 @@ class ViewController: UIViewController {
             print(response?.suggestedFilename ?? url.lastPathComponent)
             print("Download Finished")
             DispatchQueue.main.async() {
-                  self.sampleImageVIew.image = UIImage(data: data)
+                self.sampleImageVIew.image = UIImage(data: data)
             }
         }
     }
@@ -36,8 +38,5 @@ class ViewController: UIViewController {
     func getData(from url: URL, completion: @escaping (Data?, URLResponse?, Error?) -> ()) {
         URLSession.shared.dataTask(with: url, completionHandler: completion).resume()
     }
-    
-
-
 }
 
