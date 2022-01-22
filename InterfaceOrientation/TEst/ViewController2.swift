@@ -26,3 +26,17 @@ class ViewController2: UIViewController {
         _ = navigationController?.popViewController(animated: true)
     }
 }
+
+/*
+if UIDevice.current.orientation.isLandscape {
+
+    } else if UIDevice.current.orientation.isFlat {
+
+    } else if UIDevice.current.orientation.isPortrait {
+
+    } else if UIDevice.current.orientation.isValidInterfaceOrientation {
+
+    }
+ 
+ //UIDevice.currentDevice().orientation
+*/
