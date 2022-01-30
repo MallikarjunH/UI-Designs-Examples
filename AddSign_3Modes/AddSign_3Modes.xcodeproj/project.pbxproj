@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C15134A027A644C5005222D8 /* SignAppearanceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C151349F27A644C5005222D8 /* SignAppearanceVC.swift */; };
+		C15134A227A644F5005222D8 /* ImageUploadForSign.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15134A127A644F5005222D8 /* ImageUploadForSign.swift */; };
+		C15134A427A6451E005222D8 /* DrawSignVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15134A327A6451E005222D8 /* DrawSignVC.swift */; };
+		C15134A727A64562005222D8 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C15134A527A64562005222D8 /* Pacifico-Regular.ttf */; };
+		C15134A827A64562005222D8 /* Nothing-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C15134A627A64562005222D8 /* Nothing-Regular.ttf */; };
+		C15134AA27A64657005222D8 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15134A927A64657005222D8 /* HomeVC.swift */; };
+		C15134AD27A66F7F005222D8 /* FontSignSelectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15134AC27A66F7F005222D8 /* FontSignSelectionCell.swift */; };
+		C15134AF27A67098005222D8 /* ImageSignSelectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15134AE27A67098005222D8 /* ImageSignSelectionCell.swift */; };
+		C1F1E02A27942D0B0094CDAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F1E02927942D0B0094CDAD /* AppDelegate.swift */; };
+		C1F1E02C27942D0B0094CDAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F1E02B27942D0B0094CDAD /* SceneDelegate.swift */; };
+		C1F1E03127942D0B0094CDAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1F1E02F27942D0B0094CDAD /* Main.storyboard */; };
+		C1F1E03327942D100094CDAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1F1E03227942D100094CDAD /* Assets.xcassets */; };
+		C1F1E03627942D100094CDAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1F1E03427942D100094CDAD /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C151349F27A644C5005222D8 /* SignAppearanceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignAppearanceVC.swift; sourceTree = "<group>"; };
+		C15134A127A644F5005222D8 /* ImageUploadForSign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploadForSign.swift; sourceTree = "<group>"; };
+		C15134A327A6451E005222D8 /* DrawSignVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawSignVC.swift; sourceTree = "<group>"; };
+		C15134A527A64562005222D8 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		C15134A627A64562005222D8 /* Nothing-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nothing-Regular.ttf"; sourceTree = "<group>"; };
+		C15134A927A64657005222D8 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		C15134AC27A66F7F005222D8 /* FontSignSelectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSignSelectionCell.swift; sourceTree = "<group>"; };
+		C15134AE27A67098005222D8 /* ImageSignSelectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSignSelectionCell.swift; sourceTree = "<group>"; };
+		C1F1E02627942D0B0094CDAD /* AddSign_3Modes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddSign_3Modes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1F1E02927942D0B0094CDAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1F1E02B27942D0B0094CDAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C1F1E03027942D0B0094CDAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1F1E03227942D100094CDAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1F1E03527942D100094CDAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1F1E03727942D100094CDAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1F1E02327942D0B0094CDAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C151349C27A642E3005222D8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C15134A627A64562005222D8 /* Nothing-Regular.ttf */,
+				C15134A527A64562005222D8 /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C151349D27A642EC005222D8 /* AppSceneDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C1F1E02927942D0B0094CDAD /* AppDelegate.swift */,
+				C1F1E02B27942D0B0094CDAD /* SceneDelegate.swift */,
+			);
+			path = AppSceneDelegate;
+			sourceTree = "<group>";
+		};
+		C151349E27A64302005222D8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C15134A927A64657005222D8 /* HomeVC.swift */,
+				C151349F27A644C5005222D8 /* SignAppearanceVC.swift */,
+				C15134A127A644F5005222D8 /* ImageUploadForSign.swift */,
+				C15134A327A6451E005222D8 /* DrawSignVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C15134AB27A6699E005222D8 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				C15134AC27A66F7F005222D8 /* FontSignSelectionCell.swift */,
+				C15134AE27A67098005222D8 /* ImageSignSelectionCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		C1F1E01D27942D0B0094CDAD = {
+			isa = PBXGroup;
+			children = (
+				C1F1E02827942D0B0094CDAD /* AddSign_3Modes */,
+				C1F1E02727942D0B0094CDAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1F1E02727942D0B0094CDAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1F1E02627942D0B0094CDAD /* AddSign_3Modes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1F1E02827942D0B0094CDAD /* AddSign_3Modes */ = {
+			isa = PBXGroup;
+			children = (
+				C151349C27A642E3005222D8 /* Fonts */,
+				C151349D27A642EC005222D8 /* AppSceneDelegate */,
+				C151349E27A64302005222D8 /* ViewControllers */,
+				C15134AB27A6699E005222D8 /* TableViewCells */,
+				C1F1E02F27942D0B0094CDAD /* Main.storyboard */,
+				C1F1E03227942D100094CDAD /* Assets.xcassets */,
+				C1F1E03427942D100094CDAD /* LaunchScreen.storyboard */,
+				C1F1E03727942D100094CDAD /* Info.plist */,
+			);
+			path = AddSign_3Modes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1F1E02527942D0B0094CDAD /* AddSign_3Modes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1F1E03A27942D100094CDAD /* Build configuration list for PBXNativeTarget "AddSign_3Modes" */;
+			buildPhases = (
+				C1F1E02227942D0B0094CDAD /* Sources */,
+				C1F1E02327942D0B0094CDAD /* Frameworks */,
+				C1F1E02427942D0B0094CDAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddSign_3Modes;
+			productName = AddSign_3Modes;
+			productReference = C1F1E02627942D0B0094CDAD /* AddSign_3Modes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1F1E01E27942D0B0094CDAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					C1F1E02527942D0B0094CDAD = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = C1F1E02127942D0B0094CDAD /* Build configuration list for PBXProject "AddSign_3Modes" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1F1E01D27942D0B0094CDAD;
+			productRefGroup = C1F1E02727942D0B0094CDAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1F1E02527942D0B0094CDAD /* AddSign_3Modes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1F1E02427942D0B0094CDAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1F1E03627942D100094CDAD /* LaunchScreen.storyboard in Resources */,
+				C15134A727A64562005222D8 /* Pacifico-Regular.ttf in Resources */,
+				C15134A827A64562005222D8 /* Nothing-Regular.ttf in Resources */,
+				C1F1E03327942D100094CDAD /* Assets.xcassets in Resources */,
+				C1F1E03127942D0B0094CDAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1F1E02227942D0B0094CDAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1F1E02A27942D0B0094CDAD /* AppDelegate.swift in Sources */,
+				C15134AF27A67098005222D8 /* ImageSignSelectionCell.swift in Sources */,
+				C1F1E02C27942D0B0094CDAD /* SceneDelegate.swift in Sources */,
+				C15134A027A644C5005222D8 /* SignAppearanceVC.swift in Sources */,
+				C15134AD27A66F7F005222D8 /* FontSignSelectionCell.swift in Sources */,
+				C15134AA27A64657005222D8 /* HomeVC.swift in Sources */,
+				C15134A227A644F5005222D8 /* ImageUploadForSign.swift in Sources */,
+				C15134A427A6451E005222D8 /* DrawSignVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C1F1E02F27942D0B0094CDAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1F1E03027942D0B0094CDAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1F1E03427942D100094CDAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1F1E03527942D100094CDAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1F1E03827942D100094CDAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1F1E03927942D100094CDAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1F1E03B27942D100094CDAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LR4QG85CZD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AddSign_3Modes/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mallikarjun.AddSign-3Modes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1F1E03C27942D100094CDAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LR4QG85CZD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AddSign_3Modes/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mallikarjun.AddSign-3Modes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1F1E02127942D0B0094CDAD /* Build configuration list for PBXProject "AddSign_3Modes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1F1E03827942D100094CDAD /* Debug */,
+				C1F1E03927942D100094CDAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1F1E03A27942D100094CDAD /* Build configuration list for PBXNativeTarget "AddSign_3Modes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1F1E03B27942D100094CDAD /* Debug */,
+				C1F1E03C27942D100094CDAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1F1E01E27942D0B0094CDAD /* Project object */;
+}
