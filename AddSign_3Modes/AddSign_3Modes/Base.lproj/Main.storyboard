@@ -73,7 +73,7 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="8ih-lu-HVr">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" red="0.94906848669999999" green="0.948990047" blue="0.96945089100000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="FontSignSelectionCell" rowHeight="110" id="82V-hR-1Qf" customClass="FontSignSelectionCell" customModule="AddSign_3Modes" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="44.5" width="414" height="110"/>
@@ -102,6 +102,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="81" id="Hdd-RA-bbH"/>
                                                         <constraint firstItem="grF-Sx-Oea" firstAttribute="leading" secondItem="t9s-uW-OOT" secondAttribute="trailing" constant="20" id="Off-pb-hrg"/>
@@ -123,6 +124,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <color key="backgroundColor" red="0.94906848669999999" green="0.948990047" blue="0.96945089100000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
                                                 <constraint firstItem="MYo-nE-F5i" firstAttribute="leading" secondItem="43q-G4-Umw" secondAttribute="leading" constant="20" symbolic="YES" id="8Mk-cf-mFB"/>
                                                 <constraint firstAttribute="trailing" secondItem="MYo-nE-F5i" secondAttribute="trailing" constant="20" symbolic="YES" id="W4z-j7-bHM"/>
@@ -163,7 +165,7 @@
                                                             </constraints>
                                                         </imageView>
                                                     </subviews>
-                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="81" id="4UB-FQ-570"/>
                                                         <constraint firstItem="V3o-yM-Vc9" firstAttribute="top" secondItem="vOk-Vb-dZL" secondAttribute="top" constant="25" id="HhL-BA-Hbm"/>
@@ -184,6 +186,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <color key="backgroundColor" red="0.94906848669999999" green="0.948990047" blue="0.96945089100000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
                                                 <constraint firstItem="qZb-TX-qqc" firstAttribute="leading" secondItem="jyM-go-riM" secondAttribute="leading" constant="33" id="2xf-ad-wfw"/>
                                                 <constraint firstItem="qZb-TX-qqc" firstAttribute="top" secondItem="jyM-go-riM" secondAttribute="top" constant="10" id="6V9-GI-phK"/>
@@ -207,7 +210,7 @@
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="F0v-Bk-8g5"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.94906848669999999" green="0.948990047" blue="0.96945089100000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="F0v-Bk-8g5" firstAttribute="bottom" secondItem="8ih-lu-HVr" secondAttribute="bottom" id="Tdc-6a-XIH"/>
                             <constraint firstItem="8ih-lu-HVr" firstAttribute="top" secondItem="F0v-Bk-8g5" secondAttribute="top" id="cDp-KQ-3lr"/>
@@ -246,24 +249,107 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Draw Sign" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HQQ-Me-UpJ">
-                                <rect key="frame" x="136.5" y="428.5" width="141" height="39"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7EN-MX-wkL" customClass="YPDrawSignatureView" customModule="AddSign_3Modes" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="94" width="414" height="200"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="DYu-sA-aGY"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ioJ-Te-FKg">
+                                <rect key="frame" x="0.0" y="294" width="414" height="60"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Da7-eb-gkq">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="0.5"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="0.5" id="b0K-hR-2e9"/>
+                                        </constraints>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mq9-Ym-S9A">
+                                        <rect key="frame" x="0.0" y="0.5" width="414" height="59.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Clear Signature"/>
+                                        <connections>
+                                            <action selector="clearSign:" destination="9gW-ti-uPL" eventType="touchUpInside" id="ULD-Cc-f8w"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="Mq9-Ym-S9A" firstAttribute="top" secondItem="Da7-eb-gkq" secondAttribute="bottom" id="8QN-3R-zXC"/>
+                                    <constraint firstAttribute="trailing" secondItem="Mq9-Ym-S9A" secondAttribute="trailing" id="PhP-16-Yf4"/>
+                                    <constraint firstAttribute="height" constant="60" id="QPf-4W-21k"/>
+                                    <constraint firstAttribute="bottom" secondItem="Mq9-Ym-S9A" secondAttribute="bottom" id="eeC-ak-0vS"/>
+                                    <constraint firstAttribute="trailing" secondItem="Da7-eb-gkq" secondAttribute="trailing" id="hN0-1K-qiM"/>
+                                    <constraint firstItem="Da7-eb-gkq" firstAttribute="leading" secondItem="ioJ-Te-FKg" secondAttribute="leading" id="hla-QG-LXF"/>
+                                    <constraint firstItem="Mq9-Ym-S9A" firstAttribute="leading" secondItem="ioJ-Te-FKg" secondAttribute="leading" id="iCI-O1-2hs"/>
+                                    <constraint firstItem="Da7-eb-gkq" firstAttribute="top" secondItem="ioJ-Te-FKg" secondAttribute="top" id="mRK-O0-q1H"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nc0-Sv-WdE">
+                                <rect key="frame" x="10" y="379" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="ab5-p1-ZKG"/>
+                                    <constraint firstAttribute="width" constant="35" id="eeZ-aM-Jtd"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="ic_unselect_Checkbox"/>
+                                <connections>
+                                    <action selector="checkBoxButtonClicked:" destination="zaH-QZ-xvy" eventType="touchUpInside" id="145-lE-1JT"/>
+                                    <action selector="checkBoxButtonClicked:" destination="9gW-ti-uPL" eventType="touchUpInside" id="qbF-Yv-nj7"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uIf-jR-CeN">
+                                <rect key="frame" x="50" y="379" width="354" height="76"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="76" id="Uad-h1-iwq"/>
+                                </constraints>
+                                <string key="text">By signing this document through FAB e-Signature service, I acknowledge that I have read and agree to FAB e-Signature service standard terms and conditions</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2G7-Jg-rTR">
+                                <rect key="frame" x="304" y="486" width="90" height="35"/>
+                                <color key="backgroundColor" red="0.017982011660000002" green="0.1871635914" blue="0.5304102302" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="hIk-Xq-eNq"/>
+                                    <constraint firstAttribute="width" constant="90" id="nfL-br-JmX"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Sign"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fcQ-rm-dSf"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.94906848669999999" green="0.948990047" blue="0.96945089100000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="HQQ-Me-UpJ" firstAttribute="centerX" secondItem="xjw-cZ-FbA" secondAttribute="centerX" id="I3Q-Hf-OcQ"/>
-                            <constraint firstItem="HQQ-Me-UpJ" firstAttribute="centerY" secondItem="xjw-cZ-FbA" secondAttribute="centerY" id="oxB-Pg-XDG"/>
+                            <constraint firstItem="fcQ-rm-dSf" firstAttribute="trailing" secondItem="2G7-Jg-rTR" secondAttribute="trailing" constant="20" id="0XP-Hc-yXd"/>
+                            <constraint firstItem="Nc0-Sv-WdE" firstAttribute="top" secondItem="ioJ-Te-FKg" secondAttribute="bottom" constant="25" id="1YQ-zh-HWe"/>
+                            <constraint firstItem="fcQ-rm-dSf" firstAttribute="trailing" secondItem="uIf-jR-CeN" secondAttribute="trailing" constant="10" id="20i-mp-958"/>
+                            <constraint firstItem="ioJ-Te-FKg" firstAttribute="leading" secondItem="fcQ-rm-dSf" secondAttribute="leading" id="RNb-Z7-R8L"/>
+                            <constraint firstItem="7EN-MX-wkL" firstAttribute="trailing" secondItem="fcQ-rm-dSf" secondAttribute="trailing" id="Ref-Zc-Fay"/>
+                            <constraint firstItem="ioJ-Te-FKg" firstAttribute="top" secondItem="7EN-MX-wkL" secondAttribute="bottom" id="Ujx-i1-HeM"/>
+                            <constraint firstItem="uIf-jR-CeN" firstAttribute="top" secondItem="ioJ-Te-FKg" secondAttribute="bottom" constant="25" id="aH3-zt-3bi"/>
+                            <constraint firstItem="2G7-Jg-rTR" firstAttribute="top" secondItem="uIf-jR-CeN" secondAttribute="bottom" constant="31" id="enu-K7-Tgj"/>
+                            <constraint firstItem="Nc0-Sv-WdE" firstAttribute="leading" secondItem="fcQ-rm-dSf" secondAttribute="leading" constant="10" id="fd9-dl-EPV"/>
+                            <constraint firstItem="7EN-MX-wkL" firstAttribute="top" secondItem="fcQ-rm-dSf" secondAttribute="top" constant="50" id="k1P-Wl-PRv"/>
+                            <constraint firstItem="uIf-jR-CeN" firstAttribute="leading" secondItem="Nc0-Sv-WdE" secondAttribute="trailing" constant="5" id="kOO-2i-IHr"/>
+                            <constraint firstItem="7EN-MX-wkL" firstAttribute="leading" secondItem="fcQ-rm-dSf" secondAttribute="leading" id="rL4-re-dse"/>
+                            <constraint firstItem="fcQ-rm-dSf" firstAttribute="trailing" secondItem="ioJ-Te-FKg" secondAttribute="trailing" id="sBK-5S-gvM"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="checkBoxButtonOutlet" destination="Nc0-Sv-WdE" id="hE7-Qi-Sqd"/>
+                        <outlet property="signButtonOutlet" destination="2G7-Jg-rTR" id="h2y-aj-Ul1"/>
+                        <outlet property="signatureView" destination="7EN-MX-wkL" id="yJI-aE-zFZ"/>
+                        <outlet property="termsAndConditionLabel" destination="uIf-jR-CeN" id="rAl-j8-cC3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KDR-Fp-PgH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2542" y="94"/>
+            <point key="canvasLocation" x="2540.579710144928" y="93.75"/>
         </scene>
         <!--Image Upload For Sign-->
         <scene sceneID="PlC-Jr-jFb">
@@ -378,7 +464,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="68Q-S7-kgt"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.94906848669999999" green="0.948990047" blue="0.96945089100000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="68Q-S7-kgt" firstAttribute="trailing" secondItem="Uim-r9-QUw" secondAttribute="trailing" constant="20" id="1W2-su-dYN"/>
                             <constraint firstItem="JMd-gK-PA0" firstAttribute="top" secondItem="fCZ-Gg-UkF" secondAttribute="bottom" constant="26" id="1qa-nY-cf6"/>

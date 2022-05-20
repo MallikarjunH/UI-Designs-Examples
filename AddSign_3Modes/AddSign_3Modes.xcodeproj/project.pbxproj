@@ -15,6 +15,7 @@
 		C15134AA27A64657005222D8 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15134A927A64657005222D8 /* HomeVC.swift */; };
 		C15134AD27A66F7F005222D8 /* FontSignSelectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15134AC27A66F7F005222D8 /* FontSignSelectionCell.swift */; };
 		C15134AF27A67098005222D8 /* ImageSignSelectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15134AE27A67098005222D8 /* ImageSignSelectionCell.swift */; };
+		C15134B227A6A721005222D8 /* YPDrawSignatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15134B127A6A721005222D8 /* YPDrawSignatureView.swift */; };
 		C1F1E02A27942D0B0094CDAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F1E02927942D0B0094CDAD /* AppDelegate.swift */; };
 		C1F1E02C27942D0B0094CDAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F1E02B27942D0B0094CDAD /* SceneDelegate.swift */; };
 		C1F1E03127942D0B0094CDAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1F1E02F27942D0B0094CDAD /* Main.storyboard */; };
@@ -31,6 +32,7 @@
 		C15134A927A64657005222D8 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		C15134AC27A66F7F005222D8 /* FontSignSelectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSignSelectionCell.swift; sourceTree = "<group>"; };
 		C15134AE27A67098005222D8 /* ImageSignSelectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSignSelectionCell.swift; sourceTree = "<group>"; };
+		C15134B127A6A721005222D8 /* YPDrawSignatureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPDrawSignatureView.swift; sourceTree = "<group>"; };
 		C1F1E02627942D0B0094CDAD /* AddSign_3Modes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddSign_3Modes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1F1E02927942D0B0094CDAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1F1E02B27942D0B0094CDAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				C151349F27A644C5005222D8 /* SignAppearanceVC.swift */,
 				C15134A127A644F5005222D8 /* ImageUploadForSign.swift */,
 				C15134A327A6451E005222D8 /* DrawSignVC.swift */,
+				C15134B127A6A721005222D8 /* YPDrawSignatureView.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			files = (
 				C1F1E02A27942D0B0094CDAD /* AppDelegate.swift in Sources */,
 				C15134AF27A67098005222D8 /* ImageSignSelectionCell.swift in Sources */,
+				C15134B227A6A721005222D8 /* YPDrawSignatureView.swift in Sources */,
 				C1F1E02C27942D0B0094CDAD /* SceneDelegate.swift in Sources */,
 				C15134A027A644C5005222D8 /* SignAppearanceVC.swift in Sources */,
 				C15134AD27A66F7F005222D8 /* FontSignSelectionCell.swift in Sources */,
